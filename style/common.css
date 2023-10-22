@@ -9,6 +9,7 @@
 body {
   font-family: "Cormorant Upright";
 background-color: var(--background-color);
+color: var(--text-color);
 }
 
 .container {
