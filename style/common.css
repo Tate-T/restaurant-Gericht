@@ -12,6 +12,7 @@ body {
   font-family: "Cormorant Upright";
 background-color: var(--background-color);
 color: var(--text-color);
+letter-spacing: 0.04em;
 }
 
 .container {
@@ -22,6 +23,7 @@ color: var(--text-color);
   margin-right: auto;
   outline: red solid;
 }
+
 button {
     cursor: pointer;
 }

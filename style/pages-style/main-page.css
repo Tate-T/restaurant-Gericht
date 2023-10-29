@@ -60,6 +60,8 @@
   text-transform: capitalize;
 }
 
+/*hero*/
+
 .hero-text {
   color: var(--title-color);
   font-variant-numeric: lining-nums tabular-nums;
@@ -89,7 +91,7 @@
 }
 
 .hero-button {
-  color: var(--dacground-color);
+  color: var(--button-text-color);
   font-size: 16px;
   font-weight: 700;
   line-height: 175%;
@@ -305,7 +307,7 @@
   font-variant-numeric: lining-nums tabular-nums;
 
   /* H6 16px Cormorant Upright */
-  font-family: Cormorant Upright;
+
   font-size: 16px;
   font-weight: 600;
   line-height: 1.75;
@@ -533,108 +535,95 @@
 }
 /* customers */
 .customers-text {
-
-color:var(--title-color);
- font-size: 23px;
- font-weight: 700;
- text-transform: capitalize;
- line-height: 1.3;
- letter-spacing: 0.04em;
-
+  color: var(--title-color);
+  font-size: 23px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1.3;
 }
 .customers-title {
- 
-color: var( --accent-color);
- font-size: 64px;
- font-weight: 600;
- text-transform: capitalize;
- line-height: 1.3;
- letter-spacing: 0.03;
-
+  color: var(--accent-color);
+  font-size: 64px;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 1.3;
+  letter-spacing: 0.03;
 }
 .customers-img {
-
 }
 .cusomers-icon {
 }
 .customers-description {
-  
-color:var(--text-color);
-font-family: Open Sans;
- font-style: italic;
- font-weight: 400;
- line-height: 1.75;
- letter-spacing: 0.04;
- 
+  color: var(--text-color);
+  font-family: Open Sans;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.75;
 }
 .customers-name {
-  color: var( --accent-color);
- font-size: 32px;
- font-weight: 400;
- text-transform: capitalize;
- line-height: 1.3;
- letter-spacing: 0.04;
+  color: var(--accent-color);
+  font-size: 32px;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 1.3;
 }
 .customers-position {
-  
-color:var(--decor-color);
- font-size: 16px;
- font-family: Open Sans;
- font-weight: 400;
- line-height: 1.75;
- letter-spacing: 0.04;
+  color: var(--decor-color);
+  font-size: 16px;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height: 1.75;
 }
 
 /* Section Awards */
 .awards-text {
   color: var(--title-color);
-font-variant-numeric: lining-nums tabular-nums;
-font-size: 23px;
-font-weight: 700;
-line-height: 1.3;
-letter-spacing: 0.04;
-text-transform: capitalize;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 1.3;
+
+  text-transform: capitalize;
 }
 
 .awards-title {
   color: var(--accent-color);
-font-variant-numeric: lining-nums tabular-nums;
-font-size: 64px;
-font-weight: 600;
-line-height: 1.3;
-letter-spacing: 0.03;
-text-transform: capitalize;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: 0.03;
+  text-transform: capitalize;
 }
 
 .awards-type {
   color: var(--accent-color);
-font-variant-numeric: lining-nums tabular-nums;
-font-size: 23px;
-font-weight: 700;
-line-height: 1.3;
-letter-spacing: 0.04;
-text-transform: capitalize;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 1.3;
+
+  text-transform: capitalize;
 }
 
 .awards-sublist {
   color: var(--text-color);
-font-family: Open Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 1.75;
-letter-spacing: 0.04;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75;
 }
 
 /*blogs*/
 
 .blogs-title {
   color: var(--title-color);
-font-variant-numeric: lining-nums tabular-nums;
-font-size: 23px;
-font-weight: 700;
-line-height: 1.3;
-letter-spacing: 0.04;
-text-transform: capitalize;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 1.3;
+
+  text-transform: capitalize;
 }
 
 .blog-heading {
@@ -647,133 +636,152 @@ text-transform: capitalize;
   text-transform: capitalize;
 }
 
-.blog-time, .blog-name {
+.blog-time,
+.blog-name {
   color: var(--time-color);
-font-family: Open Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 1.75;
-letter-spacing: 0.04;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75;
 }
-.blog-subtitle{
+.blog-subtitle {
   color: var(--accent-color);
-font-variant-numeric: lining-nums tabular-nums;
-font-size: 32px;
-font-weight: 400;
-line-height: 1.3;
-letter-spacing: 0.04em;
-text-decoration-line: underline;
-text-transform: capitalize;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.3;
+
+  text-decoration-line: underline;
+  text-transform: capitalize;
 }
-.blog-text{
+.blog-text {
   color: var(--text-color);
-font-family: Open Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 1.75;
-letter-spacing: 0.04em;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75;
 }
-.blog-link{
+.blog-link {
   color: var(--accent-color);
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 1.75;
-letter-spacing: 0.04em;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.75;
 }
-.blog-time{
-  
+.blog-time {
 }
 
+/* gallery */
 
+.gallery-slogon {
+  color: var(--title-color);
+  font-variant-numeric: lining-nums tabular-nums;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 1.3;
 
+  text-transform: capitalize;
+}
+
+.gallery-title {
+  color: var(--accent-color);
+  text-align: center;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+}
+
+.gallery-text {
+  color: var(--text-color);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+.gallery-button {
+  color: var(--button-text-color);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.75;
+}
 
 /* footer */
 
 .subscribe-slogan {
-  font-family: Cormorant Upright;
   font-size: 23px;
   font-weight: 700;
   line-height: 1.3;
-  letter-spacing: 0.92px;
+
   text-transform: capitalize;
 }
 
 .subscribe-title {
   color: var(--accent-color);
   text-align: center;
-  font-family: Cormorant Upright;
   font-size: 64px;
   font-weight: 600;
   line-height: 1.3;
-  letter-spacing: 1.92px;
+  letter-spacing: 0.03em;
   text-transform: capitalize;
 }
 
 .contact-title {
-  font-family: Cormorant Upright;
   font-size: 32px;
   font-weight: 400;
   line-height: 1.3;
-  letter-spacing: 0.04em;
+
   text-transform: capitalize;
 }
 
 .contact-addres {
   font-weight: 400;
   line-height: 1.75;
-  letter-spacing: 0.04em;
 }
 
 .contact-link {
-    color: inherit;
-    font-weight: 400;
-    line-height: 1.75; 
-    letter-spacing: 0.04em;
+  color: inherit;
+  font-weight: 400;
+  line-height: 1.75;
 }
 
-.contact-logo{
-    color: var(--accent-color);
-    text-align: center;
-    font-family: Cormorant Upright;
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 1.3;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
+.contact-logo {
+  color: var(--accent-color);
+  text-align: center;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.3;
+
+  text-transform: uppercase;
 }
 
-.contact-info{
-    text-align: center;
-    font-weight: 400;
-    line-height: 1.75; 
-    letter-spacing: 0.04em;
+.contact-info {
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.75;
 }
 
 .contact-title {
-    font-variant-numeric: lining-nums tabular-nums;
-    font-family: Cormorant Upright;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 1.3; 
-    letter-spacing: 0.04em;
-    text-transform: capitalize;
+  font-variant-numeric: lining-nums tabular-nums;
+
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.3;
+
+  text-transform: capitalize;
 }
 
 .contact-schedule {
-    text-align: center;
-    font-weight: 400;
-    line-height: 1.75;
-    letter-spacing: 0.04em;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.75;
 }
 
 .contact-copyright {
-    text-align: center;
-    font-weight: 400;
-    line-height: 1.75;
-    letter-spacing: 0.04em;
-  }
-
-
-
-  
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.75;
+}
