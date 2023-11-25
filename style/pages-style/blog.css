@@ -12,6 +12,11 @@ body {
 }
 
 /* Header */
+.head {
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+
 .head-logo {
   color: var(--title-color);
   font-size: 44px;
@@ -41,6 +46,13 @@ body {
   letter-spacing: 0.05em;
 }
 
+/* Hero */
+
+.hero-section {
+  padding-top: 254px;
+  padding-bottom: 254px;
+}
+
 .hero-title {
   color: var(--accent-color);
   text-align: center;
@@ -61,4 +73,27 @@ body {
   text-transform: capitalize;
 }
 
+/* Information */
 
+.information-section {
+  padding-top: 152px;
+  padding-bottom: 152px;
+}
+
+/* Subscription */
+
+.subscription {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+/* Contacts */
+
+.contacts {
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+section {
+  outline: solid green;
+}
