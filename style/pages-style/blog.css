@@ -1,4 +1,10 @@
-
+.container {
+  width: 1332px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+  outline: solid red;
+}
 
 body {
   font-family: Cormorant Upright;
