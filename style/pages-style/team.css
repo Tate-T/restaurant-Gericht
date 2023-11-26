@@ -23,6 +23,16 @@ body {
 
 /* Header */
 
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
 .header-title {
   font-size: 44px;
   font-family: Cormorant Upright;
@@ -32,11 +42,28 @@ body {
   letter-spacing: 0.04em;
 }
 
+.header-navigation {
+  outline: solid yellow;
+  margin-right: 271px;
+  margin-left: auto;
+}
+
+.header-list {
+  display: flex;
+  gap: 32px;
+}
+
 .header-link {
     color: var(--text-color);
   font-weight: 400;
   line-height: 1.75;
   letter-spacing: 0.04em;
+}
+
+.header-autorizations {
+  display: flex;
+  gap: 50px;
+  outline: solid green;
 }
 
 .header-login,
