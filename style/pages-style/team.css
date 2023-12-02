@@ -139,6 +139,28 @@ body {
   letter-spacing: 0.64px;
 }
 
+.video-button {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: transparent;
+  border: none;
+}
+
+.video {
+  outline: 3px solid green;
+  padding-top: 322px;
+  padding-bottom: 321px;
+}
+
+/* .video-container {
+  height: 763px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+
 /* Menu */
 .menu-info {
   font-family: Cormorant Upright;
