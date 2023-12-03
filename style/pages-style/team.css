@@ -5,12 +5,12 @@
   --additional-text-color: #aaaaaa;
 }
 
-.container{
+.container {
   padding-left: 16px;
   padding-right: 16px;
- width: 1332px;
- outline: solid red;
- margin: 0 auto;
+  width: 1332px;
+  outline: solid red;
+  margin: 0 auto;
 }
 
 body {
@@ -53,7 +53,7 @@ body {
 }
 
 .header-link {
-    color: var(--text-color);
+  color: var(--text-color);
   font-weight: 400;
   line-height: 1.75;
   letter-spacing: 0.04em;
@@ -65,8 +65,9 @@ body {
 }
 
 .header-login,
-.header-reg, .header-menu {
-    color: var(--text-color);
+.header-reg,
+.header-menu {
+  color: var(--text-color);
   font-weight: 600;
   text-transform: capitalize;
   line-height: 1.75;
@@ -80,7 +81,7 @@ body {
   padding-bottom: 254px;
 }
 
-.hero-container{
+.hero-container {
   text-align: center;
 }
 .hero-title {
@@ -121,7 +122,6 @@ body {
   width: 411px;
 }
 
-
 .team-name {
   font-family: Cormorant Upright;
   font-size: 45px;
@@ -160,8 +160,14 @@ body {
   align-items: center;
 } */
 
-
 /* Menu */
+.menu-container {
+  display: flex;
+  column-gap: 111px;
+}
+.menu-box {
+  width: 634px;
+}
 .menu-info {
   font-family: Cormorant Upright;
   font-size: 23px;
@@ -171,7 +177,7 @@ body {
   text-transform: capitalize;
 }
 
-.menu-tite {
+.menu-title {
   color: var(--accent-color);
   font-family: Cormorant Upright;
   font-size: 64px;
@@ -180,7 +186,21 @@ body {
   letter-spacing: 1.92px;
   text-transform: capitalize;
 }
-
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 64px;
+  column-gap: 32px;
+}
+.menu-item {
+  width: 301px;
+  outline: cyan solid 1px;
+  display: flex;
+  column-gap: 32px;
+}
+.menu-content {
+  outline: lime solid 1px;
+}
 .menu-subtitle {
   color: var(--accent-color);
   font-family: Cormorant Upright;
@@ -206,7 +226,12 @@ body {
   letter-spacing: 0.92px;
   text-transform: capitalize;
 }
+.menu-photo {
+  width: 360px;
+  height: 379px;
+}
 
+/* Subscribe */
 .subscribe-title {
   color: var(--accent-color);
   text-align: center;
@@ -234,56 +259,50 @@ body {
 }
 
 .contact-link {
-    color: inherit;
-    font-weight: 400;
-    line-height: 1.75; 
-    letter-spacing: 0.04em;
+  color: inherit;
+  font-weight: 400;
+  line-height: 1.75;
+  letter-spacing: 0.04em;
 }
 
-.contact-logo{
-    color: var(--accent-color);
-    text-align: center;
-    font-family: Cormorant Upright;
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 1.3;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
+.contact-logo {
+  color: var(--accent-color);
+  text-align: center;
+  font-family: Cormorant Upright;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
-.contact-info{
-    text-align: center;
-    font-weight: 400;
-    line-height: 1.75; 
-    letter-spacing: 0.04em;
+.contact-info {
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.75;
+  letter-spacing: 0.04em;
 }
 
 .contact-title {
-    font-variant-numeric: lining-nums tabular-nums;
-    font-family: Cormorant Upright;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 1.3; 
-    letter-spacing: 0.04em;
-    text-transform: capitalize;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-family: Cormorant Upright;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
 }
 
 .contact-schedule {
-    text-align: center;
-    font-weight: 400;
-    line-height: 1.75;
-    letter-spacing: 0.04em;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.75;
+  letter-spacing: 0.04em;
 }
 
 .contact-copyright {
-    text-align: center;
-    font-weight: 400;
-    line-height: 1.75;
-    letter-spacing: 0.04em;
-  }
-
-
-
-
-
-
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.75;
+  letter-spacing: 0.04em;
+}
