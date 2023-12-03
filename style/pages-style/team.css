@@ -161,7 +161,7 @@ body {
 } */
 
 /* Menu */
-.menu{
+.menu {
   padding-top: 152px;
   padding-bottom: 152px;
 }
@@ -204,13 +204,10 @@ body {
 }
 .menu-item {
   width: 301px;
-  outline: cyan solid 1px;
   display: flex;
   column-gap: 32px;
 }
-.menu-content {
-  outline: lime solid 1px;
-}
+
 .menu-subtitle {
   color: var(--accent-color);
   font-family: Cormorant Upright;
