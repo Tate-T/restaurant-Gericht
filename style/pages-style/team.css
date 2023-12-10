@@ -8,7 +8,8 @@
 .container {
   padding-left: 16px;
   padding-right: 16px;
-  width: 1332px;
+  max-width: 1332px;
+  width: 100%;
   outline: solid red;
   margin: 0 auto;
 }
@@ -19,6 +20,12 @@ body {
   font-size: 16px;
   font-family: Open Sans;
   word-wrap: break-word;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  display: block;
 }
 
 /* Header */
@@ -122,6 +129,7 @@ body {
 
 .team-item {
   width: 411px;
+  flex-basis: calc((100% - (2 * 32px) ) / 3);
 }
 
 .team-name {
