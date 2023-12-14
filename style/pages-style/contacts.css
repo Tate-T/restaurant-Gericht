@@ -1,10 +1,4 @@
-.container{
-width: 1332px;
-padding-left: 16px ;
-padding-right: 16px;
-outline: solid red;
-margin: 0 auto;
-}
+
 
 .header,footer,section{
     outline: 2px solid blue;
