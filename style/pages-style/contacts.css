@@ -5,3 +5,20 @@ padding-right: 16px;
 outline: solid red;
 margin: 0 auto;
 }
+
+.header,footer,section{
+    outline: 2px solid blue;
+    
+}
+.hero{
+    padding-top: 254px;
+    padding-bottom: 254px;
+}
+.map{
+    padding-top: 152px;
+    padding-bottom: 152px;
+}
+.feedback{
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
