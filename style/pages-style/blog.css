@@ -34,20 +34,3 @@
   padding-bottom: 152px;
 }
 
-/* Subscription */
-
-.subscription {
-  padding-top: 64px;
-  padding-bottom: 64px;
-}
-
-/* Contacts */
-
-.contacts {
-  padding-top: 128px;
-  padding-bottom: 128px;
-}
-
-section {
-  outline: solid green;
-}
