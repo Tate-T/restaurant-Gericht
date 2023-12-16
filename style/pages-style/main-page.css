@@ -537,25 +537,51 @@
   padding: 128px;
 }
 /* customers */
+
+.customers {
+  padding-top: 152px;
+  padding-bottom: 152px;
+}
+
+
+
 .customers-text {
+  text-align: center;
   color: var(--title-color);
   font-size: 23px;
   font-weight: 700;
   text-transform: capitalize;
   line-height: 1.3;
+  margin-bottom: 8px;
 }
+.customers-spoon {
+  margin-bottom: 8px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .customers-title {
+  text-align: center;
   color: var(--accent-color);
   font-size: 64px;
   font-weight: 600;
   text-transform: capitalize;
   line-height: 1.3;
   letter-spacing: 0.03;
+  margin-bottom: 64px;
 }
-.customers-img {
+
+/* .customers-img {
 }
 .cusomers-icon {
+} */
+
+.customers-list {
+  display: flex;
+  gap: 32px;
 }
+
 .customers-description {
   color: var(--text-color);
   font-family: Open Sans;
