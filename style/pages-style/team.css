@@ -1,9 +1,9 @@
-:root {
+/* :root {
   --accent-color: #dcca87;
   --text-color: #ffffff;
   --background-color: #0c0c0c;
   --additional-text-color: #aaaaaa;
-}
+} */
 
 
 
@@ -168,7 +168,7 @@
 }
 
 .menu-text {
-  color: var(--additional-text-color);
+  color: var(--text-color);
   font-weight: 400;
   line-height: 1.75;
   letter-spacing: 0.64px;

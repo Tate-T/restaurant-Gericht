@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'Cormorant Upright';
+  font-family: "Cormorant Upright";
   background-color: var(--background-color);
   color: var(--text-color);
   letter-spacing: 0.04em;
