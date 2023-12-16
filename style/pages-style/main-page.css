@@ -518,7 +518,19 @@
 
 .customers-list {
   display: flex;
-  gap: 32px;
+  row-gap: 64px;
+  column-gap: 32px;
+  flex-wrap: wrap;
+}
+
+.customers-item {
+  width: 634px;
+  height: 210px;
+  display: flex;
+}
+
+.customers-img {
+  margin-right: 32px;
 }
 
 .customers-description {
@@ -527,6 +539,7 @@
   font-style: italic;
   font-weight: 400;
   line-height: 1.75;
+  margin-bottom: 16px;
 }
 .customers-name {
   color: var(--accent-color);
@@ -534,6 +547,7 @@
   font-weight: 400;
   text-transform: capitalize;
   line-height: 1.3;
+  margin-bottom: 4px;
 }
 .customers-position {
   color: var(--decor-color);
