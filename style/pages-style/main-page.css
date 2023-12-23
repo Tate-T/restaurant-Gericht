@@ -599,6 +599,17 @@
 
 /*blogs*/
 
+.blog-item{
+  width: 412px;
+}
+
+.blog-list{
+  display: flex;
+  gap: 32px;
+  flex-wrap:wrap;
+}
+
+
 .blogs-title {
   color: var(--title-color);
   font-variant-numeric: lining-nums tabular-nums;
