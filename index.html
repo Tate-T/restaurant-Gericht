@@ -18,10 +18,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    
     <link rel="stylesheet" href="./style/reset.css" />
     <link rel="stylesheet" href="./style/common.css" />
     <link rel="stylesheet" href="./style/components/header.css" />
     <link rel="stylesheet" href="./style/pages-style/main-page.css" />
+    <link rel="stylesheet" href="./style/components/awards.css">
     <link rel="stylesheet" href="./style/components/footer.css" />
   </head>
 
@@ -339,6 +341,7 @@
         </div>
       </section>
       <section class="customers">
+        <div class="container">
           <h4 class="customers-text">Testimony</h4>
           <img class="customers-spoon" src="./img/spoonuwu.png" alt="spoon" />
           <h2 class="customers-title">Happy customers</h2>
@@ -452,8 +455,10 @@
               </div>
             </li>
           </ul>
+        </div>
       </section>
       <section class="video">
+        <div class="container">
         <img
           class="video-logo"
           src="./img/logo.png"
@@ -473,44 +478,63 @@
             <path d="M76 61.5L52 76V47L76 61.5Z" fill="white" />
           </svg>
         </button>
+      </div>
       </section>
       <section class="awards">
-        <div class="awards-box">
-          <p class="awards-text">Awards & recognition</p>
-          <img class="awards-photo" src="./img/spoonuwu.png" alt="spoon" />
-          <h2 class="awards-title">Our Laurels</h2>
-          <ul class="awards-list">
-            <li class="awards-item">
-              <img class="awards-image" src="./img/menu2.png" alt="number2" />
-              <h3 class="awards-type">Bib Gourmond</h3>
-              <p class="awards-subtext">
-                Lorem ipsum dolor sit amet, consectetur.
-              </p>
-            </li>
-            <li class="awards-item">
-              <img class="awards-image" src="./img/menu1.png" alt="number1" />
-              <h3 class="awards-type">AA Hospitality</h3>
-              <p class="awards-subtext">
-                Lorem ipsum dolor sit amet, consectetur.
-              </p>
-            </li>
-            <li class="awards-item">
-              <img class="awards-image" src="./img/menu5.png" alt="number5" />
-              <h3 class="awards-type">Rising Star</h3>
-              <p class="awards-subtext">
-                Lorem ipsum dolor sit amet, consectetur.
-              </p>
-            </li>
-            <li class="awards-item">
-              <img class="awards-image" src="./img/menu3.png" alt="number3" />
-              <h3 class="awards-type">Outstanding Chef</h3>
-              <p class="awards-subtext">
-                Lorem ipsum dolor sit amet, consectetur.
-              </p>
-            </li>
-          </ul>
+        <div class="container awards-container">
+          <div class="awards-box">
+            <p class="awards-info">Awards & recognition</p>
+            <img src="../img/spoonuwu.png" alt="spoon" />
+            <h2 class="awards-title">Our Laurels</h2>
+            <ul class="awards-list">
+              <li class="awards-item">
+                <div class="awards-number">
+                  <img class="awards-img" src="../img/menu2.png" alt="number2" />
+                </div>
+                <div class="awards-content">
+                  <h3 class="awards-subtitle">Bib Gourmond</h3>
+                  <p class="awards-text">
+                    Lorem ipsum dolor sit amet, consectetur.
+                  </p>
+                </div>
+              </li>
+              <li class="awards-item">
+                <div class="awards-number">
+                  <img class="awards-img" src="../img/menu1.png" alt="number1" />
+                </div>
+                <div class="awards-content">
+                  <h3 class="awards-subtitle">AA Hospitality</h3>
+                  <p class="awards-text">
+                    Lorem ipsum dolor sit amet, consectetur.
+                  </p>
+                </div>
+              </li>
+              <li class="awards-item">
+                <div class="awards-number">
+                  <img class="awards-img" src="../img/menu5.png" alt="number5" />
+                </div>
+                <div class="awards-content">
+                  <h3 class="awards-subtitle">Rising Star</h3>
+                  <p class="awards-text">
+                    Lorem ipsum dolor sit amet, consectetur.
+                  </p>
+                </div>
+              </li>
+              <li class="awards-item">
+                <div class="awards-number">
+                  <img class="awards-img" src="../img/menu3.png" alt="number3" />
+                </div>
+                <div class="awards-content">
+                  <h3 class="awards-subtitle">Outstanding Chef</h3>
+                  <p class="awards-text">
+                    Lorem ipsum dolor sit amet, consectetur.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <img class="awards-photo" src="../img/g.png" alt="G" />
         </div>
-        <img class="awards-photo" src="../img/g.png" alt="G" />
       </section>
       <section class="blogs">
         <p class="blogs-title">Blogs</p>
