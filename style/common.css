@@ -6,6 +6,8 @@
   --decor-color: #f5efdb;
   --time-color: #fafafa;
   --button-text-color: #0c0c0c;
+  --cards-gap: 32px;
+  --cards-quantity: 3;
 }
 
 body {
