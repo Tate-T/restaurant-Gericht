@@ -629,6 +629,21 @@ letter-spacing: 0.04em;
 
 /*blogs*/
 
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blogs-img {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.blog-heading {
+  margin-bottom: 64px;
+}
+
 .blogs {
   padding-bottom: 152px;
 }
@@ -727,7 +742,7 @@ align-items: center;
 background: var(--DCCA87, #DCCA87);
 margin-left: auto;
 margin-right: auto;
-margin-top: 65px;
+margin-top: 64px;
 }
 
 .blog-picture {
@@ -743,25 +758,41 @@ margin-top: 65px;
 
 /* gallery */
 
+.container-gallery {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.gallery-photo-text {
+  width: 491px;
+  padding: 80.5px 0px;
+  margin-right: 64px;
+}
+
+
 .gallery-slogon {
   color: var(--title-color);
   font-variant-numeric: lining-nums tabular-nums;
   font-size: 23px;
   font-weight: 700;
   line-height: 1.3;
+  text-transform: capitalize
+}
 
-  text-transform: capitalize;
+.gallery-spoon {
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .gallery-title {
   color: var(--accent-color);
-  text-align: center;
   font-variant-numeric: lining-nums tabular-nums;
   font-size: 64px;
   font-weight: 600;
   line-height: 1.3;
   letter-spacing: 0.03em;
   text-transform: capitalize;
+
 }
 
 .gallery-text {
@@ -770,6 +801,7 @@ margin-top: 65px;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.75;
+  margin: 24px 0px;
 }
 
 .gallery-button {
@@ -777,4 +809,27 @@ margin-top: 65px;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.75;
+  background-color: var(--accent-color);
+  padding: 8px 32px;
+  cursor: pointer;
 }
+
+.gallery-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 32px;
+}
+
+
+.gallery-item {
+
+}
+
+.photo-gallery {
+  width: 301px;
+  height: 447px;
+}
+
+.photo-gallery:hover {
+
+} 
