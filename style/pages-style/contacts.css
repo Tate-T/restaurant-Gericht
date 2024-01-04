@@ -1,17 +1,80 @@
-.header,
-footer,
-section {
-  outline: 2px solid blue;
+:root {
+  --accent-color: #dcca87;
+  --title-color: #fff;
+  --text-color: #aaa;
+  --background-color: #0c0b08;
+  --decor-color: #f5efdb;
+  --time-color: #fafafa;
+  --button-text-color: #0c0c0c;
 }
-.hero {
+
+.body {
+  font-family: "Cormorant Upright";
+  letter-spacing: 0.04em;
+}
+
+.header,footer,section{
+  outline: 2px solid blue;
+  
+}
+
+.hero{
   padding-top: 254px;
   padding-bottom: 254px;
 }
-.map {
+
+.hero-title {
+  color: var(--accent-color);
+  text-align: center;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 1.3; /* 117px */
+  text-transform: capitalize;
+  margin-bottom: 24px;
+}
+
+.hero-div {
+  justify-content: center;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.hero-home {
+  color: var(--title-color);
+  font-variant-numeric: lining-nums tabular-nums;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 1.3; /* 29.9px */
+  text-transform: capitalize;
+}
+
+.hero-image {
+  width: 24px;
+  height: 24px;
+}
+
+.hero-article {
+  color: var(--title-color);
+  font-variant-numeric: lining-nums tabular-nums;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 1.3; /* 29.9px */
+  text-transform: capitalize;
+}
+
+
+
+.map{
   padding-top: 152px;
   padding-bottom: 152px;
 }
-.feedback {
+
+
+
+
+
+.feedback{
   padding-top: 128px;
   padding-bottom: 128px;
-}
+} 
