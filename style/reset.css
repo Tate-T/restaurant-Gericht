@@ -21,6 +21,10 @@ a {
 button {
   border: none;
   font-family: inherit;
+  padding: 0;
+}
+input{
+  padding: 0;
 }
 /* 
 img {
