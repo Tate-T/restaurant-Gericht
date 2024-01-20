@@ -89,6 +89,11 @@
 .about {
   padding-top: 120px;
   padding-bottom: 136px;
+  /* background-image: linear-gradient(rgba(39, 39, 39, 60%), #272727),url(../../img/g.png),url(../../img/malik.png); */
+  background-image: linear-gradient(rgba(4, 4, 4, 0.5),rgba(4, 4, 4, 0.5)), url(../../img/g-dark.png), url(../../img/malik.png); 
+  background-repeat: no-repeat;
+  background-position: center;
+  
 }
 
 .about-container {
@@ -416,6 +421,11 @@
 }
 
 /* chef */
+
+.chef {
+  background-image: linear-gradient(rgba(4, 4, 4, 0.5),rgba(4, 4, 4, 0.5)) ,url(../../img/malik.png);
+}
+
 .chef-word {
   color: var(--title-color);
   font-variant-numeric: lining-nums tabular-nums;
@@ -576,7 +586,27 @@
   line-height: 1.75;
 }
 
+.video-button {
+  background-color: transparent;
+}
+
+/* Video */
+
+.video {
+background-image: url(../../img/video.jpg);
+background-repeat: no-repeat;
+padding-top: 322px;
+padding-bottom: 321px;
+}
+
 /* Section Awards */
+
+.awards-container  {
+  background-image: url(../../img/steak.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
 .awards-text {
   color: var(--title-color);
   font-variant-numeric: lining-nums tabular-nums;
