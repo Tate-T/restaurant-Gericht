@@ -1,5 +1,8 @@
 footer {
   padding-bottom: 128px;
+  background-image: url('../../img/malik.png');
+  background-position: 0 221px;
+  background-repeat: no-repeat;
 }
 .contact .container {
   padding-bottom: 16px;

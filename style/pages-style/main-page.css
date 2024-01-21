@@ -1,5 +1,10 @@
 /*hero*/
 
+body {
+  background-image: url("../../img/wave-element.png");
+  background-position: 0 1111px;
+}
+
 .hero-text {
   color: var(--title-color);
   font-variant-numeric: lining-nums tabular-nums;
@@ -167,6 +172,17 @@
 .book {
   padding-bottom: 200px;
   padding-top: 205px;
+}
+
+.book-container {
+  /* outline: solid green; */
+  padding-bottom: 48px;
+  padding-top: 48px;
+  padding-right: 32px;
+  padding-left: 32px;
+  border: 1px solid rgba(220, 202, 135, 0.20);
+  background: var(--0C0C0C, #0C0C0C);
+  box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.70);
 }
 
 .book-img {
@@ -588,18 +604,28 @@
 
 .video-button {
   background-color: transparent;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Video */
 
 .video {
-background-image: url(../../img/video.jpg);
-background-repeat: no-repeat;
-padding-top: 322px;
-padding-bottom: 321px;
+  background-image: linear-gradient(rgba(12, 12, 12, 0.4), rgba(12, 12, 12, 0.4)), url(../../img/video.jpg);
+  background-repeat: no-repeat;
+  padding-top: 322px;
+  padding-bottom: 321px;
+
 }
 
+
+
 /* Section Awards */
+
+.awards {
+  background-image: url('../../img/malik.png');
+}
 
 .awards-container  {
   background-image: url(../../img/steak.png);
@@ -658,6 +684,10 @@ letter-spacing: 0.04em;
 }
 
 /*blogs*/
+
+.blogs {
+  padding-top: 152px;
+}
 
 .blog-container {
   display: flex;
@@ -787,6 +817,10 @@ margin-top: 64px;
 
 
 /* gallery */
+
+.gallery {
+  padding-bottom: 242px;
+}
 
 .container-gallery {
   display: flex;
