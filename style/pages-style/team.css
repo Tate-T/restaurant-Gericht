@@ -90,10 +90,21 @@
 }
 
 .video {
-  outline: 3px solid green;
-  padding-top: 322px;
-  padding-bottom: 321px;
-}
+    background-image: linear-gradient(rgba(12, 12, 12, 0.4), rgba(12, 12, 12, 0.4)), url(../../img/video.jpg);
+    background-repeat: no-repeat;
+    padding-top: 322px;
+    padding-bottom: 321px;
+  
+  }
+
+  .awards {
+    background-image: url(../../img/menubackground.png);
+    width: 795px;
+    height: 1192px;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+    background-position: ;
+  }
 
 /* .video-container {
   height: 763px;
