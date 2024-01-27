@@ -14,13 +14,17 @@
 }
 
 .header,footer,section{
-  outline: 2px solid blue;
+  
   
 }
 
 .hero{
   padding-top: 254px;
   padding-bottom: 254px;
+  background-image: linear-gradient(rgba(12, 12, 12, 0.5), rgba(12, 12, 12, 0.5)),
+    url(../../img/pexels.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero-title {
@@ -32,8 +36,19 @@
   text-transform: capitalize;
   margin-bottom: 24px;
 }
+.hero-article {
+  color: var(--title-color);
+  font-variant-numeric: lining-nums tabular-nums;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  text-align: center;
+}
 
-.hero-div {
+
+.hero-box {
   justify-content: center;
   display: flex;
   gap: 8px;
