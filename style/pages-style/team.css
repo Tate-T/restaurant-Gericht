@@ -5,6 +5,10 @@
   --additional-text-color: #aaaaaa;
 } */
 
+body{
+  background-image: url(../../img/waveelement.webp);
+  background-position: 0px 1110px;
+}
 /* Hero */
 
 .hero {
