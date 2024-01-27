@@ -97,14 +97,11 @@
   
   }
 
-  .awards {
-    background-image: url(../../img/menubackground.png);
-    width: 795px;
-    height: 1192px;
-    flex-shrink: 0;
-    background-repeat: no-repeat;
-    background-position: ;
-  }
+    .awards-container  {
+      background-image: url(../../img/steak.png);
+      background-repeat: no-repeat;
+      background-position: right;
+    }
 
 /* .video-container {
   height: 763px;
