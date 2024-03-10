@@ -29,3 +29,7 @@ body {
 button {
   cursor: pointer;
 }
+
+.logo {
+  fill: var(--accent-color);
+}

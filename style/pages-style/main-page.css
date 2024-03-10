@@ -51,6 +51,12 @@ body {
   text-transform: capitalize;
 }
 
+.hero-icon {
+  fill: var(--accent-color);
+  width: 40px;
+  height: 9px;
+}
+
 /* about */
 
 .hero {
@@ -185,7 +191,7 @@ body {
   box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.70);
 }
 
-.book-img {
+.book .logo {
   position: absolute;
   top: 0;
   right: 0;
@@ -284,6 +290,8 @@ body {
   text-transform: capitalize;
 }
 
+
+
 /*menu*/
 
 .menu {
@@ -319,6 +327,14 @@ body {
 .menu-item:first-child a {
   text-decoration-line: underline;
 }
+
+.menu .logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Special */
 
 .specail-box {
   display: flex;
@@ -813,6 +829,12 @@ margin-top: 64px;
 
 .blog-container {
   position: relative;
+}
+
+.blogs .logo {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 
