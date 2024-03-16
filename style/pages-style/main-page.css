@@ -5,6 +5,16 @@ body {
   background-position: 0 1111px;
 }
 
+.spoon-icon {
+  fill: var(--accent-color);
+  width: 40px;
+  height: 9px;
+}
+
+.spoon-icon:hover {
+  fill: white;
+}
+
 .hero-text {
   color: var(--title-color);
   font-variant-numeric: lining-nums tabular-nums;
@@ -49,12 +59,6 @@ body {
   line-height: 175%;
   letter-spacing: 0.64px;
   text-transform: capitalize;
-}
-
-.hero-icon {
-  fill: var(--accent-color);
-  width: 40px;
-  height: 9px;
 }
 
 /* about */
@@ -125,6 +129,10 @@ body {
   margin-right: 76px;
 }
 
+.about-left .spoon-icon {
+  transform: rotate(180deg);
+}
+
 .about-right {
   align-items: flex-start;
   text-align: left;
@@ -160,6 +168,7 @@ body {
   line-height: 1.75;
   letter-spacing: 0.64px;
   margin-bottom: 32px;
+  margin-top: 32px;
 }
 
 .about-button {
@@ -199,6 +208,12 @@ body {
 
 .book {
   position: relative;
+}
+
+.book .spoon-icon {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
 
 .book-spoon {
@@ -362,6 +377,12 @@ body {
 .special {
   padding-top: 152px;
   padding-bottom: 160px;
+}
+
+.special .spoon-icon {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
 
 .special-text {
@@ -539,6 +560,11 @@ body {
 
 .container {}
 
+.customers .spoon-icon {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
 
 .customers-text {
   text-align: center;
