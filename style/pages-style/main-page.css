@@ -543,8 +543,34 @@ body {
   padding-top: 87px;
 }
 
-.chef-text svg {
-  display: inline-block;
+.icon-quots {
+  width: 47px;
+  height: 40px;
+  fill: #FFF;
+
+}
+
+.video-button {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: solid 0.5px var(--accent-color);
+  padding: 47px 44px 44px 47px;
+}
+
+.video-button:hover {
+  box-shadow: 1px 1px 10px 5px var(--accent-color);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.video-button:hover .video-play {
+  fill: var(--accent-color)
+}
+
+.video-play {
+  width: 29px;
+  height: 24px;
+  fill: #FFF;
 }
 
 .chef {
