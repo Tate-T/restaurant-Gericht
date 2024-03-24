@@ -211,9 +211,8 @@ body {
 }
 
 .book .spoon-icon {
-  margin-right: auto;
-  margin-left: auto;
   display: block;
+  margin: 8px auto;
 }
 
 .book-spoon {
@@ -376,9 +375,8 @@ body {
 }
 
 .special .spoon-icon {
-  margin-right: auto;
-  margin-left: auto;
   display: block;
+  margin: 8px auto;
 }
 
 .special-text {
@@ -430,6 +428,13 @@ body {
   text-transform: capitalize;
 }
 
+.special-price::before{
+  content: '';
+  width: 119px;
+  height: 1px;
+  background-color: white;
+}
+
 .special-price {
   color: var(--title-color);
   text-align: center;
@@ -439,6 +444,9 @@ body {
   line-height: 130%;
   letter-spacing: 0.92px;
   text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  gap: 32px;
 }
 
 .special-descripton {
@@ -500,6 +508,10 @@ body {
   margin-top: 8px;
 }
 
+.chef-chef{
+  height: 789px;
+}
+
 .chef-text {
   color: var(--text-color);
   font-family: Open Sans;
@@ -522,10 +534,13 @@ body {
 }
 
 .chef-position {
-  color: var(--text-color);
+  color: var(--AAAAAA, #AAA);
+  /* Body 16px Regular */
+  font-family: "Open Sans";
   font-size: 16px;
+  font-style: normal;
   font-weight: 400;
-  line-height: 175%;
+  line-height: 175%; /* 28px */
   letter-spacing: 0.64px;
   margin-top: 8px;
   margin-bottom: 64px;
@@ -580,13 +595,10 @@ body {
   padding-bottom: 152px;
 }
 
-.container {
-}
-
 .customers .spoon-icon {
-  margin-right: auto;
-  margin-left: auto;
+  margin: 8px auto;
   display: block;
+  margin: 8px auto;
 }
 
 .customers-text {
@@ -602,8 +614,7 @@ body {
 .customers-spoon {
   margin-bottom: 8px;
   display: block;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 8px auto;
 }
 
 .customers-title {
@@ -690,7 +701,7 @@ body {
 /* Section Awards */
 
 .awards {
-  background-image: url("../../img/malik.png");
+  background-image: linear-gradient(rgba(4, 4, 4, 0.5), rgba(4, 4, 4, 0.5)), url(../../img/malik.png);
 }
 
 .awards-container {
@@ -817,9 +828,6 @@ body {
   text-transform: capitalize;
 }
 
-.blog-time {
-}
-
 .blog-box {
   display: flex;
   gap: 201px;
@@ -899,6 +907,10 @@ body {
   right: 0;
 }
 
+.blogs .spoon-icon{
+ margin: 8px auto;
+}
+
 /* gallery */
 
 .gallery {
@@ -965,25 +977,34 @@ body {
   gap: 32px;
 }
 
-.gallery-item {
-}
-
 .photo-gallery {
   width: 301px;
   height: 447px;
 }
 
-.photo-gallery:hover {
+.gallery .spoon-icon{
+  margin: 8px auto;
 }
+
+/* Subscribe */
+
+.subscribe-container{
+  border: 1px solid rgba(220, 202, 135, 0.20);
+  background-color: #0C0C0C;
+  padding: 64px 16px;
+}
+
+.subscribe .spoon-icon{
+    margin: 8px auto;
+}
+
+/* Footer */
 
 .spoon-icon-footer {
   width: 40px;
   height: 9px;
   fill: var(--accent-color);
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin: 16px auto;
 }
 
 .footer-icon {

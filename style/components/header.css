@@ -28,14 +28,17 @@
   .header-autorizations {
     display: flex;
     margin-left: 271px;
-    margin-right: 100px;
+    margin-right: 49px;
   }
   
   .header-link {
-    color: var(--title-color);
+    color: var(--FFFFFF, #FFF);
+    /* Body 16px Regular */
+    font-family: "Open Sans";
     font-size: 16px;
+    font-style: normal;
     font-weight: 400;
-    line-height: 175%;
+    line-height: 175%; /* 28px */
     letter-spacing: 0.64px;
   }
   
@@ -58,5 +61,19 @@
     line-height: 175%;
     letter-spacing: 0.8px;
     text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    gap: 49px;
+  }
+
+  .header-menu::before{
+    content: '';
+    width: 2px;
+    height: 57px;
+    display: block;
+    background-image: url(../../img/line.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   
