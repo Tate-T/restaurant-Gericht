@@ -202,12 +202,10 @@ body {
 
 .book .logo {
   position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.book {
-  position: relative;
+  top: -176px;
+  right: -127px;
+  width: 146px;
+height: 146px;
 }
 
 .book .spoon-icon {
