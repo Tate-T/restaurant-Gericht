@@ -15,6 +15,26 @@ body {
   fill: white;
 }
 
+.container {
+  outline: solid red;
+}
+
+.header-container {
+  position: relative;
+}
+
+.header-menu {
+  position: absolute;
+  right: -190px;
+}
+
+.header-title {
+  position: absolute;
+  left: -190px;
+}
+
+
+
 .hero-text {
   color: var(--title-color);
   font-variant-numeric: lining-nums tabular-nums;
