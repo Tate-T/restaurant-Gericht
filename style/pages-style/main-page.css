@@ -553,6 +553,12 @@ height: 146px;
   padding-top: 87px;
 }
 
+.customers .icon-quots  {
+  position: absolute;
+  bottom: -20px;
+  left: -63px;
+  
+}
 .icon-quots {
   width: 47px;
   height: 40px;
@@ -631,6 +637,11 @@ height: 146px;
 .cusomers-icon {
 } */
 
+.customer-div {
+  position: relative;
+  padding-top: 18px;
+
+}
 .customers-list {
   display: flex;
   row-gap: 64px;
