@@ -699,18 +699,25 @@
     </footer>
   <!-- модельне вікно -->
   <div class="backdrop">
-    <div class="modal">
-      
+    <div class="modal">  
       <form action="">
-        <label for="">Введіть Ім'я</label>
-        <input type="text">
-        <label for="">Пошта</label>
-        <input type="text">
-        <label for="">Телефон</label>
-        <input type="text">
-
+        <h2 class="backdrop-title">Заповніть дані для замовлення</h2>
+        <ul class="backdrop-list">
+          <li class="backdrop-item">
+            <label class="backdrop-information" for="">Введіть Ім'я</label>
+            <input class="backdrop-type" type="text">
+          </li>
+          <li class="backdrop-item">
+            <label class="backdrop-information" for="">Пошта</label>
+            <input class="backdrop-type" type="text">
+          </li>
+          <li class="backdrop-item">
+            <label class="backdrop-information" for="">Телефон</label>
+            <input class="backdrop-type" type="text">
+          </li>
+        </ul>
+        <button type="submit" class="backdrop-button">Відправити дані</button>
       </form>
-      
     </div>
   </div>
   </body>
