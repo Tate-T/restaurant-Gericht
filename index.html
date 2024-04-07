@@ -160,7 +160,7 @@
               </select>
             </li>
           </ul>
-          <button type="button" class="book-but">Book Now</button>
+          <button data-modal-open type="button" class="book-but">Book Now</button>
         </div>
       </section>
       <!-- menu -->
@@ -698,9 +698,12 @@
       </section>
     </footer>
   <!-- модельне вікно -->
-  <div class="backdrop">
+  <div data-modal class="backdrop is-hidden">
     <div class="modal">  
       <form action="">
+        <button data-modal-close class="modal-close"><svg class="modal-close-icon">
+          <use href="./img/symbol-defs.svg#icon-close"></use>
+        </svg></button>
         <h2 class="backdrop-title">Заповніть дані для замовлення</h2>
         <ul class="backdrop-list">
           <li class="backdrop-item">
@@ -709,16 +712,17 @@
           </li>
           <li class="backdrop-item">
             <label class="backdrop-information" for="">Пошта</label>
-            <input class="backdrop-type" type="text">
+            <input required class="backdrop-type" type="email">
           </li>
           <li class="backdrop-item">
             <label class="backdrop-information" for="">Телефон</label>
-            <input class="backdrop-type" type="text">
+            <input class="backdrop-type" type="tel">
           </li>
         </ul>
         <button type="submit" class="backdrop-button">Відправити дані</button>
       </form>
     </div>
   </div>
+  <script src="./modal.js"></script>
   </body>
 </html>
