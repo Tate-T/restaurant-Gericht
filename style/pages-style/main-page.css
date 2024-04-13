@@ -206,7 +206,7 @@ body {
 
 .book {
   padding-bottom: 200px;
-  padding-top: 205px;
+  padding-top: 157px;
 }
 
 .book-container {
@@ -336,12 +336,6 @@ height: 146px;
   row-gap: 64px;
 }
 
-.menu-logo {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
 .menu-link {
   color: var(--title-color);
   font-variant-numeric: lining-nums tabular-nums;
@@ -358,8 +352,10 @@ height: 146px;
 
 .menu .logo {
   position: absolute;
-  top: 0;
+  top: -283px;
   left: 0;
+width: 146px;
+height: 146px;
 }
 
 /* Special */
