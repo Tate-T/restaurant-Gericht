@@ -24,12 +24,12 @@
     <link rel="stylesheet" href="./style/components/header.css" />
     <link rel="stylesheet" href="./style/pages-style/main-page.css" />
     <link rel="stylesheet" href="./style/components/awards.css" />
-    <link rel="stylesheet" href="./style/model.css">
+    <link rel="stylesheet" href="./style/model.css" />
     <link rel="stylesheet" href="./style/components/footer.css" />
   </head>
 
   <body>
-    <header class="header">
+    <header id="scroll" class="header">
       <div class="container header-container">
         <h1 class="header-title">Gerícht</h1>
         <nav class="header-navigation">
@@ -53,7 +53,7 @@
         </nav>
         <ul class="header-autorizations">
           <li class="header-autorization">
-            <a class="header-login" href="">Log In /</a>
+            <a class="header-login" href="#subscribe">Log In /</a>
           </li>
           <li class="header-autorization">
             <a class="header-reg" href="">Registration</a>
@@ -103,7 +103,7 @@
             </p>
             <button type="button" class="about-button">Know More</button>
           </div>
-          <img src="./img/knife.png" alt="knife" class="about-knife">
+          <img src="./img/knife.png" alt="knife" class="about-knife" />
           <div class="about-right">
             <h2 class="about-title">Our History</h2>
             <svg class="spoon-icon">
@@ -160,7 +160,9 @@
               </select>
             </li>
           </ul>
-          <button data-modal-open type="button" class="book-but">Book Now</button>
+          <button data-modal-open type="button" class="book-but">
+            Book Now
+          </button>
         </div>
       </section>
       <!-- menu -->
@@ -288,7 +290,7 @@
       <!-- chef -->
       <section class="chef">
         <div class="container chef-container">
-          <img src="./img/chef.png" alt="chef" class="chef-chef"/>
+          <img src="./img/chef.png" alt="chef" class="chef-chef" />
           <div class="chef-box">
             <p class="chef-word">Chef’s Word</p>
             <svg class="spoon-icon">
@@ -432,9 +434,9 @@
               </li>
               <li class="awards-item">
                 <div class="awards-number">
-                 <svg class="awards-icon">
-                  <use href="./img/symbol-defs.svg#icon-number-one"></use>
-                 </svg>
+                  <svg class="awards-icon">
+                    <use href="./img/symbol-defs.svg#icon-number-one"></use>
+                  </svg>
                 </div>
                 <div class="awards-content">
                   <h3 class="awards-subtitle">Rising Star</h3>
@@ -458,9 +460,9 @@
               </li>
               <li class="awards-item">
                 <div class="awards-number">
-                <svg class="awards-icon">
-                  <use href="./img/symbol-defs.svg#icon-number-three"></use>
-                </svg>
+                  <svg class="awards-icon">
+                    <use href="./img/symbol-defs.svg#icon-number-three"></use>
+                  </svg>
                 </div>
                 <div class="awards-content">
                   <h3 class="awards-subtitle">Outstanding Chef</h3>
@@ -575,16 +577,16 @@
       <section class="gallery">
         <div class="container container-gallery">
           <div class="gallery-photo-text">
-          <p class="gallery-slogon">Instagram</p>
-          <svg class="spoon-icon">
-            <use href="./img/symbol-defs.svg#icon-spoon"></use>
-          </svg>
-          <h2 class="gallery-title">Photo Gallery</h2>
-          <p class="gallery-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
-            mattis ipsum turpis elit elit scelerisque egestas mu.
-          </p>
-          <button type="button" class="gallery-button">View More</button>
+            <p class="gallery-slogon">Instagram</p>
+            <svg class="spoon-icon">
+              <use href="./img/symbol-defs.svg#icon-spoon"></use>
+            </svg>
+            <h2 class="gallery-title">Photo Gallery</h2>
+            <p class="gallery-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
+              mattis ipsum turpis elit elit scelerisque egestas mu.
+            </p>
+            <button type="button" class="gallery-button">View More</button>
           </div>
           <ul class="gallery-list">
             <li class="gallery-item">
@@ -614,7 +616,7 @@
     <!--footer-->
     <footer class="basement">
       <section class="subscribe">
-        <div class="container subscribe-container">
+        <div id="subscribe" class="container subscribe-container">
           <p class="subscribe-slogan">newslater</p>
           <svg class="spoon-icon">
             <use href="./img/symbol-defs.svg#icon-spoon"></use>
@@ -666,21 +668,27 @@
                 <li class="contact-social">
                   <a href="" class="contact-path">
                     <svg class="footer-icon">
-                      <use href="./img/symbol-defs.svg#icon-facebook-footer"> </use>
+                      <use
+                        href="./img/symbol-defs.svg#icon-facebook-footer"
+                      ></use>
                     </svg>
                   </a>
                 </li>
                 <li class="contact-social">
                   <a href="" class="contact-path">
                     <svg class="footer-icon">
-                      <use href="./img/symbol-defs.svg#icon-twitter-footer"></use>
+                      <use
+                        href="./img/symbol-defs.svg#icon-twitter-footer"
+                      ></use>
                     </svg>
                   </a>
                 </li>
                 <li class="contact-path">
                   <a href="">
                     <svg class="footer-icon">
-                      <use href="./img/symbol-defs.svg#icon-instagram-footer"></use>
+                      <use
+                        href="./img/symbol-defs.svg#icon-instagram-footer"
+                      ></use>
                     </svg>
                   </a>
                 </li>
@@ -707,32 +715,39 @@
         </div>
       </section>
     </footer>
-  <!-- модельне вікно -->
-  <div data-modal class="backdrop is-hidden">
-    <div class="modal">  
-      <form action="">
-        <button data-modal-close class="modal-close"><svg class="modal-close-icon">
-          <use href="./img/symbol-defs.svg#icon-close"></use>
-        </svg></button>
-        <h2 class="backdrop-title">Заповніть дані для замовлення</h2>
-        <ul class="backdrop-list">
-          <li class="backdrop-item">
-            <label class="backdrop-information" for="">Введіть Ім'я</label>
-            <input class="backdrop-type" type="text">
-          </li>
-          <li class="backdrop-item">
-            <label class="backdrop-information" for="">Пошта</label>
-            <input required class="backdrop-type" type="email">
-          </li>
-          <li class="backdrop-item">
-            <label class="backdrop-information" for="">Телефон</label>
-            <input class="backdrop-type" type="tel">
-          </li>
-        </ul>
-        <button type="submit" class="backdrop-button">Відправити дані</button>
-      </form>
+    <!-- модельне вікно -->
+    <div data-modal class="backdrop is-hidden">
+      <div class="modal">
+        <form action="">
+          <button data-modal-close class="modal-close">
+            <svg class="modal-close-icon">
+              <use href="./img/symbol-defs.svg#icon-close"></use>
+            </svg>
+          </button>
+          <h2 class="backdrop-title">Заповніть дані для замовлення</h2>
+          <ul class="backdrop-list">
+            <li class="backdrop-item">
+              <label class="backdrop-information" for="">Введіть Ім'я</label>
+              <input class="backdrop-type" type="text" />
+            </li>
+            <li class="backdrop-item">
+              <label class="backdrop-information" for="">Пошта</label>
+              <input required class="backdrop-type" type="email" />
+            </li>
+            <li class="backdrop-item">
+              <label class="backdrop-information" for="">Телефон</label>
+              <input class="backdrop-type" type="tel" />
+            </li>
+          </ul>
+          <button type="submit" class="backdrop-button">Відправити дані</button>
+        </form>
+      </div>
     </div>
-  </div>
-  <script src="./modal.js"></script>
+    <a class="button-scroll" href="#scroll">
+      <svg class="icon icon-arrow-up">
+        <use href="./img/symbol-defs.svg#icon-arrow-up"></use>
+      </svg>
+    </a>
+    <script src="./modal.js"></script>
   </body>
 </html>
