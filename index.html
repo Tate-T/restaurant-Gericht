@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="./style/components/header.css" />
     <link rel="stylesheet" href="./style/pages-style/main-page.css" />
     <link rel="stylesheet" href="./style/components/awards.css" />
+    <link rel="stylesheet" href="./style/model.css">
     <link rel="stylesheet" href="./style/components/footer.css" />
   </head>
 
@@ -102,6 +103,7 @@
             </p>
             <button type="button" class="about-button">Know More</button>
           </div>
+          <img src="./img/knife.png" alt="knife" class="about-knife">
           <div class="about-right">
             <h2 class="about-title">Our History</h2>
             <svg class="spoon-icon">
@@ -158,7 +160,7 @@
               </select>
             </li>
           </ul>
-          <button type="button" class="book-but">Book Now</button>
+          <button data-modal-open type="button" class="book-but">Book Now</button>
         </div>
       </section>
       <!-- menu -->
@@ -286,7 +288,7 @@
       <!-- chef -->
       <section class="chef">
         <div class="container chef-container">
-          <img src="./img/chef.png" alt="chef" />
+          <img src="./img/chef.png" alt="chef" class="chef-chef"/>
           <div class="chef-box">
             <p class="chef-word">Chef’s Word</p>
             <svg class="spoon-icon">
@@ -417,7 +419,9 @@
             <ul class="awards-list">
               <li class="awards-item">
                 <div class="awards-number">
-                  <img class="awards-img" src="./img/menu2.png" alt="number2" />
+                  <svg class="awards-icon">
+                    <use href="./img/symbol-defs.svg#icon-number-two"></use>
+                  </svg>
                 </div>
                 <div class="awards-content">
                   <h3 class="awards-subtitle">Bib Gourmond</h3>
@@ -428,18 +432,9 @@
               </li>
               <li class="awards-item">
                 <div class="awards-number">
-                  <img class="awards-img" src="./img/menu1.png" alt="number1" />
-                </div>
-                <div class="awards-content">
-                  <h3 class="awards-subtitle">AA Hospitality</h3>
-                  <p class="awards-text">
-                    Lorem ipsum dolor sit amet, consectetur.
-                  </p>
-                </div>
-              </li>
-              <li class="awards-item">
-                <div class="awards-number">
-                  <img class="awards-img" src="./img/menu5.png" alt="number5" />
+                 <svg class="awards-icon">
+                  <use href="./img/symbol-defs.svg#icon-number-one"></use>
+                 </svg>
                 </div>
                 <div class="awards-content">
                   <h3 class="awards-subtitle">Rising Star</h3>
@@ -450,7 +445,22 @@
               </li>
               <li class="awards-item">
                 <div class="awards-number">
-                  <img class="awards-img" src="./img/menu3.png" alt="number3" />
+                  <svg class="awards-icon">
+                    <use href="./img/symbol-defs.svg#icon-number-five"></use>
+                  </svg>
+                </div>
+                <div class="awards-content">
+                  <h3 class="awards-subtitle">AA Hospitality</h3>
+                  <p class="awards-text">
+                    Lorem ipsum dolor sit amet, consectetur.
+                  </p>
+                </div>
+              </li>
+              <li class="awards-item">
+                <div class="awards-number">
+                <svg class="awards-icon">
+                  <use href="./img/symbol-defs.svg#icon-number-three"></use>
+                </svg>
                 </div>
                 <div class="awards-content">
                   <h3 class="awards-subtitle">Outstanding Chef</h3>
@@ -461,7 +471,9 @@
               </li>
             </ul>
           </div>
-          <img class="awards-photo" src="./img/g.png" alt="G" />
+          <svg class="awards-photo">
+            <use href="./img/symbol-defs.svg#icon-G"></use>
+          </svg>
         </div>
       </section>
       <!-- Blog -->
@@ -577,9 +589,19 @@
           <ul class="gallery-list">
             <li class="gallery-item">
               <img src="./img/pasta.jpg" alt="pasta" class="photo-gallery" />
+              <div class="gallery-ovlarey">
+                <svg class="galery-instagram">
+                  <use href="./img/symbol-defs.svg#icon-instagram-footer"></use>
+                </svg>
+              </div>
             </li>
             <li class="gallery-item">
               <img src="./img/juice.jpg" alt="juice" class="photo-gallery" />
+              <div class="gallery-ovlarey">
+                <svg class="galery-instagram">
+                  <use href="./img/symbol-defs.svg#icon-instagram-footer"></use>
+                </svg>
+              </div>
             </li>
             <!-- <li class="gallery-item">
               <img src="./img/eggs.jpg" alt="eggs" class="photo-gallery" />
@@ -592,7 +614,7 @@
     <!--footer-->
     <footer class="basement">
       <section class="subscribe">
-        <div class="container">
+        <div class="container subscribe-container">
           <p class="subscribe-slogan">newslater</p>
           <svg class="spoon-icon">
             <use href="./img/symbol-defs.svg#icon-spoon"></use>
@@ -637,35 +659,29 @@
                 "The best way to find yourself is to lose yourself in the
                 service of others.”
               </p>
-              <svg class="spoon-icon">
+              <svg class="spoon-icon-footer">
                 <use href="./img/symbol-defs.svg#icon-spoon"></use>
               </svg>
               <ul class="contact-socials">
                 <li class="contact-social">
                   <a href="" class="contact-path">
-                    <img
-                      src="./img/u_facebook-f.png"
-                      alt="faceboook"
-                      class="contact-icon"
-                    />
+                    <svg class="footer-icon">
+                      <use href="./img/symbol-defs.svg#icon-facebook-footer"> </use>
+                    </svg>
                   </a>
                 </li>
                 <li class="contact-social">
                   <a href="" class="contact-path">
-                    <img
-                      src="./img/u_twitter-alt.png"
-                      alt="twitter"
-                      class="contact-icon"
-                    />
+                    <svg class="footer-icon">
+                      <use href="./img/symbol-defs.svg#icon-twitter-footer"></use>
+                    </svg>
                   </a>
                 </li>
                 <li class="contact-path">
                   <a href="">
-                    <img
-                      src="./img/u_instagram.png"
-                      alt="instagram"
-                      class="contact-icon"
-                    />
+                    <svg class="footer-icon">
+                      <use href="./img/symbol-defs.svg#icon-instagram-footer"></use>
+                    </svg>
                   </a>
                 </li>
               </ul>
@@ -691,6 +707,32 @@
         </div>
       </section>
     </footer>
-  
+  <!-- модельне вікно -->
+  <div data-modal class="backdrop is-hidden">
+    <div class="modal">  
+      <form action="">
+        <button data-modal-close class="modal-close"><svg class="modal-close-icon">
+          <use href="./img/symbol-defs.svg#icon-close"></use>
+        </svg></button>
+        <h2 class="backdrop-title">Заповніть дані для замовлення</h2>
+        <ul class="backdrop-list">
+          <li class="backdrop-item">
+            <label class="backdrop-information" for="">Введіть Ім'я</label>
+            <input class="backdrop-type" type="text">
+          </li>
+          <li class="backdrop-item">
+            <label class="backdrop-information" for="">Пошта</label>
+            <input required class="backdrop-type" type="email">
+          </li>
+          <li class="backdrop-item">
+            <label class="backdrop-information" for="">Телефон</label>
+            <input class="backdrop-type" type="tel">
+          </li>
+        </ul>
+        <button type="submit" class="backdrop-button">Відправити дані</button>
+      </form>
+    </div>
+  </div>
+  <script src="./modal.js"></script>
   </body>
 </html>
