@@ -19,6 +19,14 @@ body {
   outline: solid red;
 }
 
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background-color: rgba(12, 12, 12, 0.5);
+  backdrop-filter: blur(6px);
+}
+
 .header-container {
   position: relative;
 }
