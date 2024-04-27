@@ -9,6 +9,9 @@ body {
   fill: var(--accent-color);
   width: 40px;
   height: 9px;
+  transition-property:  fill ;
+  transition-duration: 1000ms;
+  transition-timing-function: cubic-bezier(0,.99,.12,.28);
 }
 
 .spoon-icon:hover {
@@ -592,6 +595,9 @@ body {
   border-radius: 50%;
   border: solid 0.5px var(--accent-color);
   padding: 47px 44px 44px 47px;
+  transition-property:  background-color, box-shadow ;
+  transition-duration: 1000ms;
+  transition-timing-function: cubic-bezier(0,.99,.12,.28);
 }
 
 .video-button:hover {
@@ -976,6 +982,7 @@ body {
   width: 52px;
   height: 52px;
   fill: white;
+  
 }
 
 .gallery-item:hover .gallery-ovlarey {
@@ -984,6 +991,9 @@ body {
 
 .gallery-item {
   position: relative;
+  transition-property:  opacity ;
+  transition-duration: 1000ms;
+  transition-timing-function: cubic-bezier(0,.99,.12,.28);
 }
 
 .gallery-ovlarey {
@@ -1088,6 +1098,10 @@ body {
   height: 50px;
 
   background-color: var(--accent-color);
+
+  transition-property:  background-color, box-shadow ;
+  transition-duration: 1000ms;
+  transition-timing-function: cubic-bezier(0,.99,.12,.28);
 }
 .icon-arrow-up {
   width: 25px;
