@@ -6,6 +6,9 @@
   top: 0;
   bottom: 0;
   backdrop-filter: blur(3px);
+  transition-property: opacity, visibility;
+  transition-duration: 1000ms;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
   /* display: flex;
   justify-content: center;
   align-items: center; */
@@ -20,9 +23,16 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(1, 1) rotate(360deg);
   padding: 20px;
   position: relative;
+  transition-property: transform;
+  transition-duration: 1000ms;
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.backdrop.is-hidden .modal {
+  transform: translate(0, 0) scale(0, 0) rotate(0);
 }
 
 .backdrop-title {
@@ -58,7 +68,16 @@
   padding: 5px;
   border-radius: 5px;
   margin: auto;
+  transition-property: color, background-color;
+  transition-duration: 1000ms;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+
+.backdrop-button:hover {
+  color: var(--accent-color);
+  background-color: var(--title-color)
+}
+
 .modal-close-icon {
  fill: var(--accent-color);
  width: 15px;
@@ -82,4 +101,5 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+
 }
