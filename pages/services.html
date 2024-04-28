@@ -24,27 +24,96 @@
     <div class="container header-container">
       <h1 class="header-title">Gerícht</h1>
       <nav class="header-navigation">
-        <ul class="header-list">
-          <li class="header-item">
-            <a class="header-link" href="../index.html">Home</a>
+        <ul class="header-pages">
+          <li class="header-page">
+            <a class="header-link" href="../index.html">Home </a>
+
+            <ul class="header-list">
+              <li class="header-item">
+                <a href="#about" class="header-list-link">about section </a>
+              </li>
+              <li class="header-item">
+                <a href="#book" class="header-list-link">book section </a>
+              </li>
+              <li class="header-item">
+                <a href="#menu" class="header-list-link">menu section </a>
+              </li>
+              <li class="header-item">
+                <a href="#special" class="header-list-link"
+                  >special section
+                </a>
+              </li>
+              <li class="header-item">
+                <a href="#chef" class="header-list-link">chef section </a>
+              </li>
+              <li class="header-item">
+                <a href="#customers" class="header-list-link"
+                  >customers section
+                </a>
+              </li>
+              <li class="header-item">
+                <a href="#video" class="header-list-link">video section </a>
+              </li>
+              <li class="header-item">
+                <a href="#awards" class="header-list-link">awards section </a>
+              </li>
+
+              <li class="header-item">
+                <a href="#blogs" class="header-list-link">blogs section </a>
+              </li>
+              <li class="header-item">
+                <a href="#gallery" class="header-list-link"
+                  >gallery section
+                </a>
+              </li>
+              <li class="header-item">
+                <a href="#basement" class="header-list-link"
+                  >basement section
+                </a>
+              </li>
+            </ul>
           </li>
-          <li class="header-item">
-            <a class="header-link" href="./team.html">Team</a>
+          <li class="header-page">
+            <a class="header-link" href="../pages/team.html">Team</a>
+            <div class="heder-box">
+              <ul class="header-list">
+                <li class="header-item"></li>
+                <li class="header-item"></li>
+              </ul>
+            </div>
           </li>
-          <li class="header-item">
-            <a class="header-link" href="./contacts.html">Contact Us</a>
+          <li class="header-page">
+            <a class="header-link" href="../pages/contacts.html">Contact Us</a>
+            <div class="heder-box">
+              <ul class="header-list">
+                <li class="header-item"></li>
+                <li class="header-item"></li>
+              </ul>
+            </div>
           </li>
-          <li class="header-item">
-            <a class="header-link" href="./blog.html">Blog</a>
+          <li class="header-page">
+            <a class="header-link" href="../pages/blog.html">Blog</a>
+            <div class="heder-box">
+              <ul class="header-list">
+                <li class="header-item"></li>
+                <li class="header-item"></li>
+              </ul>
+            </div>
           </li>
-          <li class="header-item">
-            <a class="header-link" href="./services.html">Services</a>
+          <li class="header-page">
+            <a class="header-link" href="../pages/services.html">Services</a>
+            <div class="heder-box">
+              <ul class="header-list">
+                <li class="header-item"></li>
+                <li class="header-item"></li>
+              </ul>
+            </div>
           </li>
         </ul>
       </nav>
       <ul class="header-autorizations">
         <li class="header-autorization">
-          <a class="header-login" href="">Log In /</a>
+          <a class="header-login" href="#subscribe">Log In /</a>
         </li>
         <li class="header-autorization">
           <a class="header-reg" href="">Registration</a>
@@ -56,7 +125,7 @@
   <main>
     <!-- hero section -->
 
-    <section class="welcome-section">
+    <section id="scroll" class="welcome-section">
       <div class="container">
         <h1 class="welcome-title">Welcome to Gerícht</h1>
         <p class="welcome-p">Home</p>
@@ -112,7 +181,7 @@
         <h2 class="about-title">Happy Hours with Us</h2>
         <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices
           vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
-        <button class="about-btn">
+        <button class="about-btn button">
           <svg class="icon"></svg>
         </button>
       </div>
@@ -324,7 +393,7 @@
             </article>
           </li>
         </ul>
-        <button type="button">View More</button>
+        <button type="button" class="button">View More</button>
         <img src="./img/logo.png" alt="logo" class="book-img" />
       </div>
     </section>
@@ -335,7 +404,7 @@
         <h2>Photo Gallery</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque
           egestas mu.</p>
-        <button type="button">View More</button>
+        <button type="button" class="button">View More</button>
         <ul>
           <li><img src="./img/pasta.jpg" alt="">pasta</li>
           <li><img src="./img/juice.jpg" alt="">juice</li>
@@ -354,7 +423,7 @@
         <p class="subscribe-info">And never miss latest Updates!</p>
         <form class="subscribe-form">
           <input type="email" placeholder="Email Address" class="subscribe-input" />
-          <button type="submit" class="subscribe-btn">Subscribe</button>
+          <button type="submit" class="subscribe-btn button">Subscribe</button>
         </form>
       </div>
     </section>
@@ -420,6 +489,11 @@
       </div>
     </section>
   </footer>
+  <a class="button-scroll" href="#scroll">
+    <svg class="icon icon-arrow-up">
+      <use href="../img/symbol-defs.svg#icon-arrow-up"></use>
+    </svg>
+  </a>
 </body>
 
 </html>
