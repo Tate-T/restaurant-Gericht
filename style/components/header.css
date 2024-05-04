@@ -48,8 +48,28 @@
   gap: 32px;
 }
 
-.header-list-link{
+.header-list-link::after{
   color: var(--accent-color);
+}
+@keyframes header-list-link {
+  0% {
+    opacity: 0;
+      } 
+      25% {
+        opacity: 0.3;
+        background-color: white;
+      }
+     50% {
+    opacity: 0.5;
+    background-color: blue;
+      }
+      75% {
+        opacity: 0.7;
+        background-color: red;
+      }
+      100% {
+        opacity: 1;
+      }
 }
 
 .header-autorizations {
@@ -88,7 +108,33 @@
 .header-page:hover .header-link::after {
   opacity: 1;
   transform: scaleX(1);
+  animation-name:header-link;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
 }
+@keyframes header-link {
+  0% {
+opacity: 0;
+  } 
+  25% {
+    opacity: 0.3;
+    background-color: white;
+  }
+ 50% {
+opacity: 0.5;
+background-color: blue;
+  }
+  75% {
+    opacity: 0.7;
+    background-color: red;
+  }
+  100% {
+    opacity: 1;
+  }
+  
+}
+
+
 
 .header-login,
 .header-reg {
