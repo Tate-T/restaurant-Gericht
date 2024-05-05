@@ -1,627 +1,610 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gericht</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@400;600;700&family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap"
-      rel="stylesheet"
-    />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gericht</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@400;600;700&family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap"
+    rel="stylesheet" />
 
-    <link rel="stylesheet" href="./style/reset.css" />
-    <link rel="stylesheet" href="./style/common.css" />
-    <link rel="stylesheet" href="./style/components/header.css" />
-    <link rel="stylesheet" href="./style/pages-style/main-page.css" />
-    <link rel="stylesheet" href="./style/components/awards.css" />
-    <link rel="stylesheet" href="./style/model.css" />
-    <link rel="stylesheet" href="./style/components/footer.css" />
-  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-  <body>
-    <header class="header">
-      <div class="container header-container">
-        <h1 class="header-title  animate__heartBeat">Gerícht</h1>
-        <nav class="header-navigation">
-          <ul class="header-pages">
-            <li class="header-page">
-              <a class="header-link" href="./index.html">Home </a>
+  <link rel="stylesheet" href="./style/reset.css" />
+  <link rel="stylesheet" href="./style/common.css" />
+  <link rel="stylesheet" href="./style/components/header.css" />
+  <link rel="stylesheet" href="./style/pages-style/main-page.css" />
+  <link rel="stylesheet" href="./style/components/awards.css" />
+  <link rel="stylesheet" href="./style/model.css" />
+  <link rel="stylesheet" href="./style/components/footer.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
 
-              <ul class="header-list">
-                <li class="header-item">
-                  <a href="#about" class="header-list-link">about section </a>
-                </li>
-                <li class="header-item">
-                  <a href="#book" class="header-list-link">book section </a>
-                </li>
-                <li class="header-item">
-                  <a href="#menu" class="header-list-link">menu section </a>
-                </li>
-                <li class="header-item">
-                  <a href="#special" class="header-list-link"
-                    >special section
-                  </a>
-                </li>
-                <li class="header-item">
-                  <a href="#chef" class="header-list-link">chef section </a>
-                </li>
-                <li class="header-item">
-                  <a href="#customers" class="header-list-link"
-                    >customers section
-                  </a>
-                </li>
-                <li class="header-item">
-                  <a href="#video" class="header-list-link">video section </a>
-                </li>
-                <li class="header-item">
-                  <a href="#awards" class="header-list-link">awards section </a>
-                </li>
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <h1 class="header-title  animate__heartBeat">Gerícht</h1>
+      <nav class="header-navigation">
+        <ul class="header-pages">
+          <li class="header-page">
+            <a class="header-link" href="./index.html">Home </a>
 
-                <li class="header-item">
-                  <a href="#blogs" class="header-list-link">blogs section </a>
-                </li>
-                <li class="header-item">
-                  <a href="#gallery" class="header-list-link"
-                    >gallery section
-                  </a>
-                </li>
-                <li class="header-item">
-                  <a href="#basement" class="header-list-link"
-                    >basement section
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="header-page">
-              <a class="header-link" href="./pages/team.html">Team</a>
-              <div class="heder-box">
-                <ul class="header-list">
-                  <li class="header-item"></li>
-                  <li class="header-item"></li>
-                </ul>
-              </div>
-            </li>
-            <li class="header-page">
-              <a class="header-link" href="./pages/contacts.html">Contact Us</a>
-              <div class="heder-box">
-                <ul class="header-list">
-                  <li class="header-item"></li>
-                  <li class="header-item"></li>
-                </ul>
-              </div>
-            </li>
-            <li class="header-page">
-              <a class="header-link" href="./pages/blog.html">Blog</a>
-              <div class="heder-box">
-                <ul class="header-list">
-                  <li class="header-item"></li>
-                  <li class="header-item"></li>
-                </ul>
-              </div>
-            </li>
-            <li class="header-page">
-              <a class="header-link" href="./pages/services.html">Services</a>
-              <div class="heder-box">
-                <ul class="header-list">
-                  <li class="header-item"></li>
-                  <li class="header-item"></li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </nav>
-        <ul class="header-autorizations">
-          <li class="header-autorization">
-            <a class="header-login" href="#subscribe">Log In /</a>
+            <ul class="header-list">
+              <li class="header-item">
+                <a href="#about" class="header-list-link">about section </a>
+              </li>
+              <li class="header-item">
+                <a href="#book" class="header-list-link">book section </a>
+              </li>
+              <li class="header-item">
+                <a href="#menu" class="header-list-link">menu section </a>
+              </li>
+              <li class="header-item">
+                <a href="#special" class="header-list-link">special section
+                </a>
+              </li>
+              <li class="header-item">
+                <a href="#chef" class="header-list-link">chef section </a>
+              </li>
+              <li class="header-item">
+                <a href="#customers" class="header-list-link">customers section
+                </a>
+              </li>
+              <li class="header-item">
+                <a href="#video" class="header-list-link">video section </a>
+              </li>
+              <li class="header-item">
+                <a href="#awards" class="header-list-link">awards section </a>
+              </li>
+
+              <li class="header-item">
+                <a href="#blogs" class="header-list-link">blogs section </a>
+              </li>
+              <li class="header-item">
+                <a href="#gallery" class="header-list-link">gallery section
+                </a>
+              </li>
+              <li class="header-item">
+                <a href="#basement" class="header-list-link">basement section
+                </a>
+              </li>
+            </ul>
           </li>
-          <li class="header-autorization">
-            <a class="header-reg" href="">Registration</a>
+          <li class="header-page">
+            <a class="header-link" href="./pages/team.html">Team</a>
+            <div class="heder-box">
+              <ul class="header-list">
+                <li class="header-item"></li>
+                <li class="header-item"></li>
+              </ul>
+            </div>
+          </li>
+          <li class="header-page">
+            <a class="header-link" href="./pages/contacts.html">Contact Us</a>
+            <div class="heder-box">
+              <ul class="header-list">
+                <li class="header-item"></li>
+                <li class="header-item"></li>
+              </ul>
+            </div>
+          </li>
+          <li class="header-page">
+            <a class="header-link" href="./pages/blog.html">Blog</a>
+            <div class="heder-box">
+              <ul class="header-list">
+                <li class="header-item"></li>
+                <li class="header-item"></li>
+              </ul>
+            </div>
+          </li>
+          <li class="header-page">
+            <a class="header-link" href="./pages/services.html">Services</a>
+            <div class="heder-box">
+              <ul class="header-list">
+                <li class="header-item"></li>
+                <li class="header-item"></li>
+              </ul>
+            </div>
           </li>
         </ul>
-        <a class="header-menu" href="">book table</a>
+      </nav>
+      <ul class="header-autorizations">
+        <li class="header-autorization">
+          <a class="header-login" href="#subscribe">Log In /</a>
+        </li>
+        <li class="header-autorization">
+          <a class="header-reg" href="">Registration</a>
+        </li>
+      </ul>
+      <a class="header-menu" href="">book table</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- hero -->
+    <section id="scroll" class="hero">
+      <div class="container">
+        <div class="hero-wraper">
+          <div class="hero-box">
+            <p class="hero-text">Chase the new Flavour</p>
+            <!-- <img src="./img/spoonuwu.png" alt="spoon" /> -->
+            <svg class="spoon-icon">
+              <use href="./img/symbol-defs.svg#icon-spoon"></use>
+            </svg>
+            <h2 class="hero-title">The key to Fine dining</h2>
+            <p class="hero-info">
+              Sit tellus lobortis sed senectus vivamus molestie. Condimentum
+              volutpat morbi facilisis quam scelerisque sapien. Et, penatibus
+              aliquam amet tellus
+            </p>
+            <button type="button" class="hero-button button">
+              Explore Name
+            </button>
+          </div>
+          <img class="hero-img" src="./img/hero1.png" alt="hero1" />
+        </div>
+        <p class="hero-pages">01 - 02 03 04</p>
       </div>
-    </header>
+    </section>
 
-    <main>
-      <!-- hero -->
-      <section id="scroll" class="hero">
-        <div class="container">
-          <div class="hero-wraper">
-            <div class="hero-box">
-              <p class="hero-text">Chase the new Flavour</p>
-              <!-- <img src="./img/spoonuwu.png" alt="spoon" /> -->
-              <svg class="spoon-icon">
-                <use href="./img/symbol-defs.svg#icon-spoon"></use>
-              </svg>
-              <h2 class="hero-title">The key to Fine dining</h2>
-              <p class="hero-info">
-                Sit tellus lobortis sed senectus vivamus molestie. Condimentum
-                volutpat morbi facilisis quam scelerisque sapien. Et, penatibus
-                aliquam amet tellus
-              </p>
-              <button type="button" class="hero-button button">
-                Explore Name
-              </button>
-            </div>
-            <img class="hero-img" src="./img/hero1.png" alt="hero1" />
-          </div>
-          <p class="hero-pages">01 - 02 03 04</p>
+    <!-- about -->
+    <section class="about" id="about">
+      <div class="container about-container">
+        <div class="about-left" data-aos="flip-right">
+          <h2 class="about-title">About Us</h2>
+          <svg class="spoon-icon">
+            <use href="./img/symbol-defs.svg#icon-spoon"></use>
+          </svg>
+          <p class="about-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis
+            pharetra adipiscing ultrices vulputate posuere tristique. In sed
+            odio nec aliquet eu proin mauris et.
+          </p>
+          <button type="button" class="about-button button">Know More</button>
         </div>
-      </section>
-
-      <!-- about -->
-      <section class="about" id="about">
-        <div class="container about-container">
-          <div class="about-left">
-            <h2 class="about-title">About Us</h2>
-            <svg class="spoon-icon">
-              <use href="./img/symbol-defs.svg#icon-spoon"></use>
-            </svg>
-            <p class="about-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis
-              pharetra adipiscing ultrices vulputate posuere tristique. In sed
-              odio nec aliquet eu proin mauris et.
-            </p>
-            <button type="button" class="about-button button">Know More</button>
-          </div>
+        <div data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="10000">
           <img src="./img/knife.png" alt="knife" class="about-knife" />
-          <div class="about-right">
-            <h2 class="about-title">Our History</h2>
-            <svg class="spoon-icon">
-              <use href="./img/symbol-defs.svg#icon-spoon"></use>
-            </svg>
-            <p class="about-text">
-              Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat.
-              Risus placerat morbi volutpat habitasse interdum mi aliquam In sed
-              odio nec aliquet.
-            </p>
-            <button type="button" class="about-button button">Know More</button>
-          </div>
         </div>
-      </section>
-      <!-- book -->
-      <section class="book" id="book">
-        <div class="container book-container">
-          <!-- <img src="./img/logo.png" alt="logo" class="book-img" /> -->
-          <svg class="logo">
-            <use href="./img/symbol-defs.svg#icon-logo"></use>
-          </svg>
-          <p class="book-reserv">Reservations</p>
+        <div class="about-right">
+          <h2 class="about-title">Our History</h2>
           <svg class="spoon-icon">
             <use href="./img/symbol-defs.svg#icon-spoon"></use>
           </svg>
-          <h2 class="book-title">Book A Table</h2>
-          <ul class="book-list">
-            <li class="book-item">
-              <select class="book-select" name="person" id="person">
-                <option class="book-option" value="person 1">person 1</option>
-                <option class="book-option" value="person 2">person 2</option>
-                <option class="book-option" value="person 3">person 3</option>
-                <option class="book-option" value="person 4">person 4</option>
-                <option class="book-option" value="person 5">person 5</option>
-              </select>
-            </li>
-            <li class="book-item">
-              <select class="book-select" name="date" id="date">
-                <option class="book-option" value="date">12/05/2021</option>
-                <option class="book-option" value="date">12/06/2021</option>
-                <option class="book-option" value="date">12/07/2021</option>
-                <option class="book-option" value="date">12/08/2021</option>
-                <option class="book-option" value="date">12/09/2021</option>
-                <option class="book-option" value="date">12/10/2021</option>
-              </select>
-            </li>
-            <li class="book-item">
-              <select class="book-select" name="time" id="time">
-                <option class="book-option" value="">11:00 AM</option>
-                <option class="book-option" value="">12:00 AM</option>
-                <option class="book-option" value="">13:00 AM</option>
-                <option class="book-option" value="">14:00 AM</option>
-                <option class="book-option" value="">15:00 AM</option>
-              </select>
-            </li>
-          </ul>
-          <button data-modal-open type="button" class="book-but button">
-            Book Now
-          </button>
+          <p class="about-text">
+            Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat.
+            Risus placerat morbi volutpat habitasse interdum mi aliquam In sed
+            odio nec aliquet.
+          </p>
+          <button type="button" class="about-button button">Know More</button>
         </div>
-      </section>
-      <!-- menu -->
-      <section class="menu" id="menu">
-        <div class="container">
-          <!-- <img src="./img/logo.png" alt="logo" class="menu-logo" /> -->
-          <svg class="logo">
-            <use href="./img/symbol-defs.svg#icon-logo"></use>
-          </svg>
-          <ul class="menu-list">
-            <li class="menu-item">
-              <a class="menu-link" href="">Bar Menu</a>
-            </li>
-            <li class="menu-item">
-              <a class="menu-link" href="">Food Menu</a>
-            </li>
-            <li class="menu-item">
-              <a class="menu-link" href="">Desserts Menu</a>
-            </li>
-          </ul>
+      </div>
+    </section>
+    <!-- book -->
+    <section class="book" id="book">
+      <div class="container book-container">
+        <!-- <img src="./img/logo.png" alt="logo" class="book-img" /> -->
+        <svg class="logo">
+          <use href="./img/symbol-defs.svg#icon-logo"></use>
+        </svg>
+        <p class="book-reserv">Reservations</p>
+        <svg class="spoon-icon">
+          <use href="./img/symbol-defs.svg#icon-spoon"></use>
+        </svg>
+        <h2 class="book-title">Book A Table</h2>
+        <ul class="book-list">
+          <li class="book-item">
+            <select class="book-select" name="person" id="person">
+              <option class="book-option" value="person 1">person 1</option>
+              <option class="book-option" value="person 2">person 2</option>
+              <option class="book-option" value="person 3">person 3</option>
+              <option class="book-option" value="person 4">person 4</option>
+              <option class="book-option" value="person 5">person 5</option>
+            </select>
+          </li>
+          <li class="book-item">
+            <select class="book-select" name="date" id="date">
+              <option class="book-option" value="date">12/05/2021</option>
+              <option class="book-option" value="date">12/06/2021</option>
+              <option class="book-option" value="date">12/07/2021</option>
+              <option class="book-option" value="date">12/08/2021</option>
+              <option class="book-option" value="date">12/09/2021</option>
+              <option class="book-option" value="date">12/10/2021</option>
+            </select>
+          </li>
+          <li class="book-item">
+            <select class="book-select" name="time" id="time">
+              <option class="book-option" value="">11:00 AM</option>
+              <option class="book-option" value="">12:00 AM</option>
+              <option class="book-option" value="">13:00 AM</option>
+              <option class="book-option" value="">14:00 AM</option>
+              <option class="book-option" value="">15:00 AM</option>
+            </select>
+          </li>
+        </ul>
+        <button data-modal-open type="button" class="book-but button">
+          Book Now
+        </button>
+      </div>
+    </section>
+    <!-- menu -->
+    <section class="menu" id="menu">
+      <div class="container">
+        <!-- <img src="./img/logo.png" alt="logo" class="menu-logo" /> -->
+        <svg class="logo">
+          <use href="./img/symbol-defs.svg#icon-logo"></use>
+        </svg>
+        <ul class="menu-list">
+          <li class="menu-item">
+            <a class="menu-link" href="">Bar Menu</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link" href="">Food Menu</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link" href="">Desserts Menu</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Special -->
+    <section class="special" id="special">
+      <div class="container">
+        <p class="special-text">Menu that fits you palatte</p>
+        <svg class="spoon-icon">
+          <use href="./img/symbol-defs.svg#icon-spoon"></use>
+        </svg>
+        <h2 class="special-title">Today’s Special</h2>
+        <div class="specail-box">
+          <div class="special-menu">
+            <h3 class="specialsub-title">Wine & Beer</h3>
+            <ul class="specail-list">
+              <li class="special-item">
+                <div class="special-coctail">
+                  <h4 class="special-drink">Chapel Hill Shiraz</h4>
+                  <p class="special-price">$56</p>
+                </div>
+                <p class="special-descripton">AU | Bottle</p>
+              </li>
+              <li class="special-item">
+                <div class="special-coctail">
+                  <h4 class="special-drink">Catena Malbec</h4>
+                  <p class="special-price">$59</p>
+                </div>
+                <p class="special-descripton">AR | Bottle</p>
+              </li>
+              <li class="special-item">
+                <div class="special-coctail">
+                  <h4 class="special-drink">La Vieille Rosé</h4>
+                  <p class="special-price">$44</p>
+                </div>
+                <p class="special-descripton">FR | 750 ml</p>
+              </li>
+              <li class="special-item">
+                <div class="special-coctail">
+                  <h4 class="special-drink">Rhino Pale Ale</h4>
+                  <p class="special-price">$31</p>
+                </div>
+                <p class="special-descripton">CA | 750 ml</p>
+              </li>
+              <li class="special-item">
+                <div class="special-coctail">
+                  <h4 class="special-drink">Irish Guinness</h4>
+                  <p class="special-price">$26</p>
+                </div>
+                <p class="special-descripton">IE | 750 ml</p>
+              </li>
+            </ul>
+          </div>
+          <img src="./img/tea.png" alt="Чай" />
+          <div class="special-menu">
+            <h3 class="specialsub-title">Cocktails</h3>
+            <ul class="specail-list">
+              <li class="special-item">
+                <div class="special-coctail">
+                  <h4 class="special-drink">Aperol Spritz</h4>
+                  <p class="special-price">$20</p>
+                </div>
+                <p class="special-descripton">
+                  Aperol | Villa Marchesi prosecco | soda | 30ml
+                </p>
+              </li>
+              <li class="special-item">
+                <div class="special-coctail">
+                  <h4 class="special-drink">Dark 'N' Stormy</h4>
+                  <p class="special-price">$16</p>
+                </div>
+                <p class="special-descripton">
+                  Dark rum | Ginger beer | Slice of lime.
+                </p>
+              </li>
+              <li class="special-item">
+                <div class="special-coctail">
+                  <h4 class="special-drink">Daiquiri</h4>
+                  <p class="special-price">$10</p>
+                </div>
+                <p class="special-descripton">Rum | Citrus juice | Sugar</p>
+              </li>
+              <li class="special-item">
+                <div class="special-coctail">
+                  <h4 class="special-drink">Old Fashioned</h4>
+                  <p class="special-price">$31</p>
+                </div>
+                <p class="special-descripton">
+                  Bourbon | Brown sugar | Angostura Bitters
+                </p>
+              </li>
+              <li class="special-item">
+                <div class="special-coctail">
+                  <h4 class="special-drink">Negroni</h4>
+                  <p class="special-price">$26</p>
+                </div>
+                <p class="special-descripton">
+                  Gin | Sweet Vermouth | Campari | Orange garnish
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
-      </section>
-      <!-- Special -->
-      <section class="special" id="special">
-        <div class="container">
-          <p class="special-text">Menu that fits you palatte</p>
+        <button class="special-button button" type="button">View More</button>
+      </div>
+    </section>
+    <!-- chef -->
+    <section class="chef" id="chef">
+      <div class="container chef-container">
+        <img src="./img/chef.png" alt="chef" class="chef-chef" />
+        <div class="chef-box">
+          <p class="chef-word">Chef’s Word</p>
           <svg class="spoon-icon">
             <use href="./img/symbol-defs.svg#icon-spoon"></use>
           </svg>
-          <h2 class="special-title">Today’s Special</h2>
-          <div class="specail-box">
-            <div class="special-menu">
-              <h3 class="specialsub-title">Wine & Beer</h3>
-              <ul class="specail-list">
-                <li class="special-item">
-                  <div class="special-coctail">
-                    <h4 class="special-drink">Chapel Hill Shiraz</h4>
-                    <p class="special-price">$56</p>
-                  </div>
-                  <p class="special-descripton">AU | Bottle</p>
-                </li>
-                <li class="special-item">
-                  <div class="special-coctail">
-                    <h4 class="special-drink">Catena Malbec</h4>
-                    <p class="special-price">$59</p>
-                  </div>
-                  <p class="special-descripton">AR | Bottle</p>
-                </li>
-                <li class="special-item">
-                  <div class="special-coctail">
-                    <h4 class="special-drink">La Vieille Rosé</h4>
-                    <p class="special-price">$44</p>
-                  </div>
-                  <p class="special-descripton">FR | 750 ml</p>
-                </li>
-                <li class="special-item">
-                  <div class="special-coctail">
-                    <h4 class="special-drink">Rhino Pale Ale</h4>
-                    <p class="special-price">$31</p>
-                  </div>
-                  <p class="special-descripton">CA | 750 ml</p>
-                </li>
-                <li class="special-item">
-                  <div class="special-coctail">
-                    <h4 class="special-drink">Irish Guinness</h4>
-                    <p class="special-price">$26</p>
-                  </div>
-                  <p class="special-descripton">IE | 750 ml</p>
-                </li>
-              </ul>
-            </div>
-            <img src="./img/tea.png" alt="Чай" />
-            <div class="special-menu">
-              <h3 class="specialsub-title">Cocktails</h3>
-              <ul class="specail-list">
-                <li class="special-item">
-                  <div class="special-coctail">
-                    <h4 class="special-drink">Aperol Spritz</h4>
-                    <p class="special-price">$20</p>
-                  </div>
-                  <p class="special-descripton">
-                    Aperol | Villa Marchesi prosecco | soda | 30ml
-                  </p>
-                </li>
-                <li class="special-item">
-                  <div class="special-coctail">
-                    <h4 class="special-drink">Dark 'N' Stormy</h4>
-                    <p class="special-price">$16</p>
-                  </div>
-                  <p class="special-descripton">
-                    Dark rum | Ginger beer | Slice of lime.
-                  </p>
-                </li>
-                <li class="special-item">
-                  <div class="special-coctail">
-                    <h4 class="special-drink">Daiquiri</h4>
-                    <p class="special-price">$10</p>
-                  </div>
-                  <p class="special-descripton">Rum | Citrus juice | Sugar</p>
-                </li>
-                <li class="special-item">
-                  <div class="special-coctail">
-                    <h4 class="special-drink">Old Fashioned</h4>
-                    <p class="special-price">$31</p>
-                  </div>
-                  <p class="special-descripton">
-                    Bourbon | Brown sugar | Angostura Bitters
-                  </p>
-                </li>
-                <li class="special-item">
-                  <div class="special-coctail">
-                    <h4 class="special-drink">Negroni</h4>
-                    <p class="special-price">$26</p>
-                  </div>
-                  <p class="special-descripton">
-                    Gin | Sweet Vermouth | Campari | Orange garnish
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <button class="special-button button" type="button">View More</button>
-        </div>
-      </section>
-      <!-- chef -->
-      <section class="chef" id="chef">
-        <div class="container chef-container">
-          <img src="./img/chef.png" alt="chef" class="chef-chef" />
-          <div class="chef-box">
-            <p class="chef-word">Chef’s Word</p>
-            <svg class="spoon-icon">
-              <use href="./img/symbol-defs.svg#icon-spoon"></use>
-            </svg>
-            <h2 class="chef-title">What we believe in</h2>
+          <h2 class="chef-title">What we believe in</h2>
 
-            <p class="chef-text">
+          <p class="chef-text">
+            <svg class="icon-quots">
+              <use href="./img/symbol-defs.svg#icon-quots"></use>
+            </svg>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit
+            .auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget
+            sit. Nulla scelerisque scelerisque congue ac consequat, aliquam
+            molestie lectus eu. Congue iaculis integer curabitur semper sit
+            nunc.
+          </p>
+
+          <h3 class="chef-name">Kevin Luo</h3>
+          <p class="chef-position">Chef & Founder</p>
+          <img src="./img/kevinluo.png" alt="chef-signature" />
+        </div>
+      </div>
+    </section>
+    <!-- Customers -->
+    <section class="customers" id="customers">
+      <div class="container">
+        <h4 class="customers-text">Testimony</h4>
+        <svg class="spoon-icon">
+          <use href="./img/symbol-defs.svg#icon-spoon"></use>
+        </svg>
+        <h2 class="customers-title">Happy customers</h2>
+        <ul class="customers-list">
+          <li class="customers-item">
+            <img class="customers-img" src="./img/amir.jpg" alt="amir" />
+            <div class="customer-div">
               <svg class="icon-quots">
                 <use href="./img/symbol-defs.svg#icon-quots"></use>
               </svg>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit
-              .auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget
-              sit. Nulla scelerisque scelerisque congue ac consequat, aliquam
-              molestie lectus eu. Congue iaculis integer curabitur semper sit
-              nunc.
-            </p>
+              <p class="customers-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor
+                sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit.
+                Nulla scelerisque scelerisque congue.
+              </p>
+              <h3 class="customers-name">Wade Warren</h3>
 
-            <h3 class="chef-name">Kevin Luo</h3>
-            <p class="chef-position">Chef & Founder</p>
-            <img src="./img/kevinluo.png" alt="chef-signature" />
-          </div>
-        </div>
-      </section>
-      <!-- Customers -->
-      <section class="customers" id="customers">
-        <div class="container">
-          <h4 class="customers-text">Testimony</h4>
-          <svg class="spoon-icon">
-            <use href="./img/symbol-defs.svg#icon-spoon"></use>
-          </svg>
-          <h2 class="customers-title">Happy customers</h2>
-          <ul class="customers-list">
-            <li class="customers-item">
-              <img class="customers-img" src="./img/amir.jpg" alt="amir" />
-              <div class="customer-div">
-                <svg class="icon-quots">
-                  <use href="./img/symbol-defs.svg#icon-quots"></use>
-                </svg>
-                <p class="customers-description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor
-                  sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit.
-                  Nulla scelerisque scelerisque congue.
-                </p>
-                <h3 class="customers-name">Wade Warren</h3>
+              <h3 class="customers-position">Sommelier</h3>
+            </div>
+          </li>
 
-                <h3 class="customers-position">Sommelier</h3>
-              </div>
-            </li>
+          <li class="customers-item">
+            <img class="customers-img" src="./img/girl_idk.jpg" alt="girl_idk" />
+            <div class="customer-div">
+              <svg class="icon-quots">
+                <use href="./img/symbol-defs.svg#icon-quots"></use>
+              </svg>
+              <p class="customers-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor
+                sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit.
+                Nulla scelerisque scelerisque congue.
+              </p>
+              <h3 class="customers-name">Jane Cooper</h3>
+              <h3 class="customers-position">Chef</h3>
+            </div>
+          </li>
+          <li class="customers-item">
+            <img class="customers-img" src="./img/ian.jpg" alt="ian" />
+            <div class="customer-div">
+              <svg class="icon-quots">
+                <use href="./img/symbol-defs.svg#icon-quots"></use>
+              </svg>
+              <p class="customers-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor
+                sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit.
+                Nulla scelerisque scelerisque congue.
+              </p>
+              <h3 class="customers-name">Robert Fox</h3>
+              <h3 class="customers-position">Chef</h3>
+            </div>
+          </li>
+          <li class="customers-item">
+            <img class="customers-img" src="./img/olivier.jpg" alt="olivie" />
 
-            <li class="customers-item">
-              <img
-                class="customers-img"
-                src="./img/girl_idk.jpg"
-                alt="girl_idk"
-              />
-              <div class="customer-div">
-                <svg class="icon-quots">
-                  <use href="./img/symbol-defs.svg#icon-quots"></use>
-                </svg>
-                <p class="customers-description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor
-                  sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit.
-                  Nulla scelerisque scelerisque congue.
-                </p>
-                <h3 class="customers-name">Jane Cooper</h3>
-                <h3 class="customers-position">Chef</h3>
-              </div>
-            </li>
-            <li class="customers-item">
-              <img class="customers-img" src="./img/ian.jpg" alt="ian" />
-              <div class="customer-div">
-                <svg class="icon-quots">
-                  <use href="./img/symbol-defs.svg#icon-quots"></use>
-                </svg>
-                <p class="customers-description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor
-                  sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit.
-                  Nulla scelerisque scelerisque congue.
-                </p>
-                <h3 class="customers-name">Robert Fox</h3>
-                <h3 class="customers-position">Chef</h3>
-              </div>
-            </li>
-            <li class="customers-item">
-              <img class="customers-img" src="./img/olivier.jpg" alt="olivie" />
-
-              <div class="customer-div">
-                <svg class="icon-quots">
-                  <use href="./img/symbol-defs.svg#icon-quots"></use>
-                </svg>
-                <p class="customers-description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor
-                  sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit.
-                  Nulla scelerisque scelerisque congue.
-                </p>
-                <h3 class="customers-name">Brooklyn Simmons</h3>
-                <h3 class="customers-position">Caterer</h3>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!-- video -->
-      <section class="video" id="video">
-        <div class="container video-container">
-          <!-- <img
+            <div class="customer-div">
+              <svg class="icon-quots">
+                <use href="./img/symbol-defs.svg#icon-quots"></use>
+              </svg>
+              <p class="customers-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor
+                sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit.
+                Nulla scelerisque scelerisque congue.
+              </p>
+              <h3 class="customers-name">Brooklyn Simmons</h3>
+              <h3 class="customers-position">Caterer</h3>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- video -->
+    <section class="video" id="video">
+      <div class="container video-container">
+        <!-- <img
             class="video-logo"
             src="./img/logo.png"
             alt="logo"
             class="book-img"
           /> -->
-          <button class="video-button button" type="button">
-            <svg class="video-play">
-              <use href="./img/symbol-defs.svg#icon-button-play"></use>
-            </svg>
-          </button>
-        </div>
-      </section>
-      <!-- Awards -->
-      <section class="awards" id="awards">
-        <div class="container awards-container">
-          <div class="awards-box">
-            <p class="awards-info">Awards & recognition</p>
-            <svg class="spoon-icon">
-              <use href="./img/symbol-defs.svg#icon-spoon"></use>
-            </svg>
-            <h2 class="awards-title">Our Laurels</h2>
-            <ul class="awards-list">
-              <li class="awards-item">
-                <div class="awards-number">
-                  <svg class="awards-icon">
-                    <use href="./img/symbol-defs.svg#icon-number-two"></use>
-                  </svg>
-                </div>
-                <div class="awards-content">
-                  <h3 class="awards-subtitle">Bib Gourmond</h3>
-                  <p class="awards-text">
-                    Lorem ipsum dolor sit amet, consectetur.
-                  </p>
-                </div>
-              </li>
-              <li class="awards-item">
-                <div class="awards-number">
-                  <svg class="awards-icon">
-                    <use href="./img/symbol-defs.svg#icon-number-one"></use>
-                  </svg>
-                </div>
-                <div class="awards-content">
-                  <h3 class="awards-subtitle">Rising Star</h3>
-                  <p class="awards-text">
-                    Lorem ipsum dolor sit amet, consectetur.
-                  </p>
-                </div>
-              </li>
-              <li class="awards-item">
-                <div class="awards-number">
-                  <svg class="awards-icon">
-                    <use href="./img/symbol-defs.svg#icon-number-five"></use>
-                  </svg>
-                </div>
-                <div class="awards-content">
-                  <h3 class="awards-subtitle">AA Hospitality</h3>
-                  <p class="awards-text">
-                    Lorem ipsum dolor sit amet, consectetur.
-                  </p>
-                </div>
-              </li>
-              <li class="awards-item">
-                <div class="awards-number">
-                  <svg class="awards-icon">
-                    <use href="./img/symbol-defs.svg#icon-number-three"></use>
-                  </svg>
-                </div>
-                <div class="awards-content">
-                  <h3 class="awards-subtitle">Outstanding Chef</h3>
-                  <p class="awards-text">
-                    Lorem ipsum dolor sit amet, consectetur.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <svg class="awards-photo">
-            <use href="./img/symbol-defs.svg#icon-G"></use>
+        <button class="video-button button" type="button">
+          <svg class="video-play">
+            <use href="./img/symbol-defs.svg#icon-button-play"></use>
           </svg>
-        </div>
-      </section>
-      <!-- Blog -->
-      <section class="blogs" id="blogs">
-        <div class="container blog-container">
-          <p class="blogs-title">Blogs</p>
+        </button>
+      </div>
+    </section>
+    <!-- Awards -->
+    <section class="awards" id="awards">
+      <div class="container awards-container">
+        <div class="awards-box">
+          <p class="awards-info">Awards & recognition</p>
           <svg class="spoon-icon">
             <use href="./img/symbol-defs.svg#icon-spoon"></use>
           </svg>
-          <h2 class="blog-heading">Gerícht updates</h2>
-          <ul class="blog-list">
-            <li class="blog-item">
-              <article class="blog-article">
-                <img src="./img/blog1steak.webp" alt="steak" class="blog-pic" />
-                <div class="blog-box">
-                  <time datetime="2021-04-16" class="blog-time"
-                    >16 Apr 2021
-                  </time>
-                  <p class="blog-name">- Annalisa L</p>
-                </div>
-                <h3 class="blog-subtitle">
-                  tips for prepping and caring for your grill
-                </h3>
-                <p class="blog-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Volutpat mattis ipsum turpis elit elit scelerisque egestas mus
-                  in.
+          <h2 class="awards-title">Our Laurels</h2>
+          <ul class="awards-list">
+            <li class="awards-item">
+              <div class="awards-number">
+                <svg class="awards-icon">
+                  <use href="./img/symbol-defs.svg#icon-number-two"></use>
+                </svg>
+              </div>
+              <div class="awards-content">
+                <h3 class="awards-subtitle">Bib Gourmond</h3>
+                <p class="awards-text">
+                  Lorem ipsum dolor sit amet, consectetur.
                 </p>
-                <a href="#" class="blog-link">Read More</a>
-              </article>
+              </div>
             </li>
-            <li class="blog-item">
-              <article class="blog-article">
-                <img src="./img/blog1drink.webp" alt="drink" class="blog-pic" />
-                <div class="blog-box">
-                  <time datetime="2021-05-23" class="blog-time"
-                    >23 May 2021</time
-                  >
-                  <p class="blog-name">-John Micheal</p>
-                </div>
-                <h3 class="blog-subtitle">summer cocktails and mocktails</h3>
-                <p class="blog-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Volutpat mattis ipsum turpis elit elit scelerisque egestas mus
-                  in.
+            <li class="awards-item">
+              <div class="awards-number">
+                <svg class="awards-icon">
+                  <use href="./img/symbol-defs.svg#icon-number-one"></use>
+                </svg>
+              </div>
+              <div class="awards-content">
+                <h3 class="awards-subtitle">Rising Star</h3>
+                <p class="awards-text">
+                  Lorem ipsum dolor sit amet, consectetur.
                 </p>
-                <a href="#" class="blog-link">Read More</a>
-              </article>
+              </div>
             </li>
-            <li class="blog-item">
-              <article class="blog-article">
-                <img src="./img/blog1salad.webp" alt="salad" class="blog-pic" />
-                <div class="blog-box">
-                  <time datetime="2020-03-06" class="blog-time"
-                    >06 Mar 2020</time
-                  >
-                  <p class="blog-name">- Andrial M</p>
-                </div>
-                <h3 class="blog-subtitle">
-                  How to make your food Photographs look aesthetic
-                </h3>
-                <p class="blog-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Volutpat mattis ipsum turpis elit elit scelerisque egestas mus
-                  in.
+            <li class="awards-item">
+              <div class="awards-number">
+                <svg class="awards-icon">
+                  <use href="./img/symbol-defs.svg#icon-number-five"></use>
+                </svg>
+              </div>
+              <div class="awards-content">
+                <h3 class="awards-subtitle">AA Hospitality</h3>
+                <p class="awards-text">
+                  Lorem ipsum dolor sit amet, consectetur.
                 </p>
-                <a href="#" class="blog-link">Read More</a>
-              </article>
+              </div>
             </li>
-            <!-- <li class="blog-item">
+            <li class="awards-item">
+              <div class="awards-number">
+                <svg class="awards-icon">
+                  <use href="./img/symbol-defs.svg#icon-number-three"></use>
+                </svg>
+              </div>
+              <div class="awards-content">
+                <h3 class="awards-subtitle">Outstanding Chef</h3>
+                <p class="awards-text">
+                  Lorem ipsum dolor sit amet, consectetur.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <svg class="awards-photo">
+          <use href="./img/symbol-defs.svg#icon-G"></use>
+        </svg>
+      </div>
+    </section>
+    <!-- Blog -->
+    <section class="blogs" id="blogs">
+      <div class="container blog-container">
+        <p class="blogs-title">Blogs</p>
+        <svg class="spoon-icon">
+          <use href="./img/symbol-defs.svg#icon-spoon"></use>
+        </svg>
+        <h2 class="blog-heading">Gerícht updates</h2>
+        <ul class="blog-list">
+          <li class="blog-item">
+            <article class="blog-article">
+              <img src="./img/blog1steak.webp" alt="steak" class="blog-pic" />
+              <div class="blog-box">
+                <time datetime="2021-04-16" class="blog-time">16 Apr 2021
+                </time>
+                <p class="blog-name">- Annalisa L</p>
+              </div>
+              <h3 class="blog-subtitle">
+                tips for prepping and caring for your grill
+              </h3>
+              <p class="blog-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Volutpat mattis ipsum turpis elit elit scelerisque egestas mus
+                in.
+              </p>
+              <a href="#" class="blog-link">Read More</a>
+            </article>
+          </li>
+          <li class="blog-item">
+            <article class="blog-article">
+              <img src="./img/blog1drink.webp" alt="drink" class="blog-pic" />
+              <div class="blog-box">
+                <time datetime="2021-05-23" class="blog-time">23 May 2021</time>
+                <p class="blog-name">-John Micheal</p>
+              </div>
+              <h3 class="blog-subtitle">summer cocktails and mocktails</h3>
+              <p class="blog-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Volutpat mattis ipsum turpis elit elit scelerisque egestas mus
+                in.
+              </p>
+              <a href="#" class="blog-link">Read More</a>
+            </article>
+          </li>
+          <li class="blog-item">
+            <article class="blog-article">
+              <img src="./img/blog1salad.webp" alt="salad" class="blog-pic" />
+              <div class="blog-box">
+                <time datetime="2020-03-06" class="blog-time">06 Mar 2020</time>
+                <p class="blog-name">- Andrial M</p>
+              </div>
+              <h3 class="blog-subtitle">
+                How to make your food Photographs look aesthetic
+              </h3>
+              <p class="blog-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Volutpat mattis ipsum turpis elit elit scelerisque egestas mus
+                in.
+              </p>
+              <a href="#" class="blog-link">Read More</a>
+            </article>
+          </li>
+          <!-- <li class="blog-item">
               <article class="blog-article">
                 <img src="../img/blog1shef.webp" alt="shef" class="blog-pic" />
                 <div class="blog-box">
@@ -641,195 +624,186 @@
                 <a href="#" class="blog-link">Read More</a>
               </article>
             </li> -->
-          </ul>
-          <button type="button" class="blog-button button">View More</button>
-          <!-- <img src="./img/logo.png" alt="logo" class="blog-picture" /> -->
-          <svg class="logo">
-            <use href="./img/symbol-defs.svg#icon-logo"></use>
-          </svg>
-        </div>
-      </section>
-      <!--gallery-->
-      <section class="gallery" id="gallery">
-        <div class="container container-gallery">
-          <div class="gallery-photo-text">
-            <p class="gallery-slogon">Instagram</p>
-            <svg class="spoon-icon">
-              <use href="./img/symbol-defs.svg#icon-spoon"></use>
-            </svg>
-            <h2 class="gallery-title">Photo Gallery</h2>
-            <p class="gallery-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
-              mattis ipsum turpis elit elit scelerisque egestas mu.
-            </p>
-            <button type="button" class="gallery-button button">
-              View More
-            </button>
-          </div>
-          <ul class="gallery-list">
-            <li class="gallery-item">
-              <img src="./img/pasta.jpg" alt="pasta" class="photo-gallery" />
-              <div class="gallery-ovlarey">
-                <svg class="galery-instagram">
-                  <use href="./img/symbol-defs.svg#icon-instagram-footer"></use>
-                </svg>
-              </div>
-            </li>
-            <li class="gallery-item">
-              <img src="./img/juice.jpg" alt="juice" class="photo-gallery" />
-              <div class="gallery-ovlarey">
-                <svg class="galery-instagram">
-                  <use href="./img/symbol-defs.svg#icon-instagram-footer"></use>
-                </svg>
-              </div>
-            </li>
-            <!-- <li class="gallery-item">
-              <img src="./img/eggs.jpg" alt="eggs" class="photo-gallery" />
-            </li> -->
-          </ul>
-        </div>
-      </section>
-    </main>
-
-    <!--footer-->
-    <footer class="basement" id="basement">
-      <section class="subscribe">
-        <div id="subscribe" class="container subscribe-container">
-          <p class="subscribe-slogan">newslater</p>
+        </ul>
+        <button type="button" class="blog-button button">View More</button>
+        <!-- <img src="./img/logo.png" alt="logo" class="blog-picture" /> -->
+        <svg class="logo">
+          <use href="./img/symbol-defs.svg#icon-logo"></use>
+        </svg>
+      </div>
+    </section>
+    <!--gallery-->
+    <section class="gallery" id="gallery">
+      <div class="container container-gallery">
+        <div class="gallery-photo-text">
+          <p class="gallery-slogon">Instagram</p>
           <svg class="spoon-icon">
             <use href="./img/symbol-defs.svg#icon-spoon"></use>
           </svg>
-          <h2 class="subscribe-title">subscribe to our newslatter</h2>
-          <!-- <img src="../img/logo.png" alt="logo" class="subscribe-logo" /> -->
-          <p class="subscribe-info">And never miss latest Updates!</p>
-          <form class="subscribe-form">
-            <input
-              type="email"
-              placeholder="Email Address"
-              class="subscribe-input"
-            />
-            <button type="submit" class="subscribe-btn button">
-              Subscribe
-            </button>
-          </form>
-        </div>
-      </section>
-      <section class="contact">
-        <div class="container">
-          <div class="contact-container">
-            <div class="contact-box">
-              <h2 class="contact-title">Contact Us</h2>
-              <address class="contact-addres">
-                9 W 53rd St, New York, NY 10019, USA
-              </address>
-              <ul class="contact-list">
-                <li class="contact-item">
-                  <a href="tel:+12123441230" class="contact-link"
-                    >+1 212-344-1230</a
-                  >
-                </li>
-                <li class="contact-item">
-                  <a href="tel:+12125551230" class="contact-link"
-                    >+1 212-555-1230</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <div class="contact-box">
-              <h2 class="contact-logo">Gerícht</h2>
-              <p class="contact-info">
-                "The best way to find yourself is to lose yourself in the
-                service of others.”
-              </p>
-              <svg class="spoon-icon-footer">
-                <use href="./img/symbol-defs.svg#icon-spoon"></use>
-              </svg>
-              <ul class="contact-socials">
-                <li class="contact-social">
-                  <a href="" class="contact-path">
-                    <svg class="footer-icon">
-                      <use
-                        href="./img/symbol-defs.svg#icon-facebook-footer"
-                      ></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="contact-social">
-                  <a href="" class="contact-path">
-                    <svg class="footer-icon">
-                      <use
-                        href="./img/symbol-defs.svg#icon-twitter-footer"
-                      ></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="contact-path">
-                  <a href="">
-                    <svg class="footer-icon">
-                      <use
-                        href="./img/symbol-defs.svg#icon-instagram-footer"
-                      ></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="contact-box">
-              <h2 class="contact-title">Working Hours</h2>
-              <ul class="contact-list">
-                <li class="contact-item">
-                  <p class="contact-schedule">
-                    Monday-Friday:
-                    <span class="contact-time">08:00 am -12:00 am</span>
-                  </p>
-                </li>
-                <li class="list">
-                  <p class="contact-schedule">
-                    Saturday-Sunday: 07:00am -11:00 pm
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <p class="contact-copyright">2023 Gerícht. All Rights reserved.</p>
-        </div>
-      </section>
-    </footer>
-    <!-- модельне вікно -->
-    <div data-modal class="backdrop is-hidden">
-      <div class="modal">
-        <form action="">
-          <button data-modal-close class="modal-close">
-            <svg class="modal-close-icon">
-              <use href="./img/symbol-defs.svg#icon-close"></use>
-            </svg>
+          <h2 class="gallery-title">Photo Gallery</h2>
+          <p class="gallery-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
+            mattis ipsum turpis elit elit scelerisque egestas mu.
+          </p>
+          <button type="button" class="gallery-button button">
+            View More
           </button>
-          <h2 class="backdrop-title">Заповніть дані для замовлення</h2>
-          <ul class="backdrop-list">
-            <li class="backdrop-item">
-              <label class="backdrop-information" for="">Введіть Ім'я</label>
-              <input class="backdrop-type" type="text" />
-            </li>
-            <li class="backdrop-item">
-              <label class="backdrop-information" for="">Пошта</label>
-              <input required class="backdrop-type" type="email" />
-            </li>
-            <li class="backdrop-item">
-              <label class="backdrop-information" for="">Телефон</label>
-              <input class="backdrop-type" type="tel" />
-            </li>
-          </ul>
-          <button type="submit" class="backdrop-button button">
-            Відправити дані
+        </div>
+        <ul class="gallery-list">
+          <li class="gallery-item">
+            <img src="./img/pasta.jpg" alt="pasta" class="photo-gallery" />
+            <div class="gallery-ovlarey">
+              <svg class="galery-instagram">
+                <use href="./img/symbol-defs.svg#icon-instagram-footer"></use>
+              </svg>
+            </div>
+          </li>
+          <li class="gallery-item">
+            <img src="./img/juice.jpg" alt="juice" class="photo-gallery" />
+            <div class="gallery-ovlarey">
+              <svg class="galery-instagram">
+                <use href="./img/symbol-defs.svg#icon-instagram-footer"></use>
+              </svg>
+            </div>
+          </li>
+          <!-- <li class="gallery-item">
+              <img src="./img/eggs.jpg" alt="eggs" class="photo-gallery" />
+            </li> -->
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!--footer-->
+  <footer class="basement" id="basement">
+    <section class="subscribe">
+      <div id="subscribe" class="container subscribe-container">
+        <p class="subscribe-slogan">newslater</p>
+        <svg class="spoon-icon">
+          <use href="./img/symbol-defs.svg#icon-spoon"></use>
+        </svg>
+        <h2 class="subscribe-title">subscribe to our newslatter</h2>
+        <!-- <img src="../img/logo.png" alt="logo" class="subscribe-logo" /> -->
+        <p class="subscribe-info">And never miss latest Updates!</p>
+        <form class="subscribe-form">
+          <input type="email" placeholder="Email Address" class="subscribe-input" />
+          <button type="submit" class="subscribe-btn button">
+            Subscribe
           </button>
         </form>
       </div>
+    </section>
+    <section class="contact">
+      <div class="container">
+        <div class="contact-container">
+          <div class="contact-box">
+            <h2 class="contact-title">Contact Us</h2>
+            <address class="contact-addres">
+              9 W 53rd St, New York, NY 10019, USA
+            </address>
+            <ul class="contact-list">
+              <li class="contact-item">
+                <a href="tel:+12123441230" class="contact-link">+1 212-344-1230</a>
+              </li>
+              <li class="contact-item">
+                <a href="tel:+12125551230" class="contact-link">+1 212-555-1230</a>
+              </li>
+            </ul>
+          </div>
+          <div class="contact-box">
+            <h2 class="contact-logo">Gerícht</h2>
+            <p class="contact-info">
+              "The best way to find yourself is to lose yourself in the
+              service of others.”
+            </p>
+            <svg class="spoon-icon-footer">
+              <use href="./img/symbol-defs.svg#icon-spoon"></use>
+            </svg>
+            <ul class="contact-socials">
+              <li class="contact-social">
+                <a href="" class="contact-path">
+                  <svg class="footer-icon">
+                    <use href="./img/symbol-defs.svg#icon-facebook-footer"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="contact-social">
+                <a href="" class="contact-path">
+                  <svg class="footer-icon">
+                    <use href="./img/symbol-defs.svg#icon-twitter-footer"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="contact-path">
+                <a href="">
+                  <svg class="footer-icon">
+                    <use href="./img/symbol-defs.svg#icon-instagram-footer"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="contact-box">
+            <h2 class="contact-title">Working Hours</h2>
+            <ul class="contact-list">
+              <li class="contact-item">
+                <p class="contact-schedule">
+                  Monday-Friday:
+                  <span class="contact-time">08:00 am -12:00 am</span>
+                </p>
+              </li>
+              <li class="list">
+                <p class="contact-schedule">
+                  Saturday-Sunday: 07:00am -11:00 pm
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="contact-copyright">2023 Gerícht. All Rights reserved.</p>
+      </div>
+    </section>
+  </footer>
+  <!-- модельне вікно -->
+  <div data-modal class="backdrop is-hidden">
+    <div class="modal">
+      <form>
+        <button data-modal-close class="modal-close">
+          <svg class="modal-close-icon">
+            <use href="./img/symbol-defs.svg#icon-close"></use>
+          </svg>
+        </button>
+        <h2 class="backdrop-title">Заповніть дані для замовлення</h2>
+        <ul class="backdrop-list">
+          <li class="backdrop-item">
+            <label class="backdrop-information" for="name">Введіть Ім'я</label>
+            <input class="backdrop-type" type="text" id="name"/>
+          </li>
+          <li class="backdrop-item">
+            <label class="backdrop-information" for="mail">Пошта</label>
+            <input required class="backdrop-type" type="email" id="mail" />
+          </li>
+          <li class="backdrop-item">
+            <label class="backdrop-information" for="tel">Телефон</label>
+            <input class="backdrop-type" type="tel" id="tel" />
+          </li>
+        </ul>
+        <button type="submit" class="backdrop-button button">
+          Відправити дані
+        </button>
+      </form>
     </div>
-    <a class="button-scroll" href="#scroll">
-      <svg class="icon icon-arrow-up">
-        <use href="./img/symbol-defs.svg#icon-arrow-up"></use>
-      </svg>
-    </a>
-    <script src="./modal.js"></script>
-  </body>
+  </div>
+  <a class="button-scroll" href="#scroll">
+    <svg class="icon icon-arrow-up">
+      <use href="./img/symbol-defs.svg#icon-arrow-up"></use>
+    </svg>
+  </a>
+  <script src="./modal.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
 </html>
