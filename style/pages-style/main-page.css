@@ -1017,15 +1017,31 @@ body {
   
 }
 
-.gallery-item:hover .gallery-ovlarey {
-  opacity: 0.5;
+
+
+/* .gallery-item:hover .gallery-ovlarey {
+  animation-name: gallery-overlay;
+  animation-duration: 250ms;
+  animation-iteration-count: infinite;
 }
+
+@keyframes gallery-overlay{
+  0%{
+    transform: translateY(451px);
+  }
+  100%{
+    opacity: 0.5;
+    transform: translateY(0px);
+  }
+
+} */
 
 .gallery-item {
   position: relative;
-  transition-property:  opacity ;
+  transition-property:  opacity;
   transition-duration: 1000ms;
   transition-timing-function: cubic-bezier(0,.99,.12,.28);
+  overflow: hidden;
 }
 
 .gallery-ovlarey {
@@ -1045,8 +1061,14 @@ body {
     rgba(0, 0, 0, 0.75) 1.5%,
     rgba(0, 0, 0, 0.64) 98.62%
   );
-  transition-property: background-image, opacity;
-  transition-duration: 250ms;
+  transition-property: background-image, opacity, transform;
+  transition-duration: 1s;
+  transform: translateY(451px);
+}
+
+.gallery-item:hover .gallery-ovlarey{
+  transform: translateY(0px);
+  opacity: 0.5;
 }
 
 .gallery-title {
