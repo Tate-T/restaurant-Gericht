@@ -1,0 +1,116 @@
+.book {
+    padding-bottom: 200px;
+    padding-top: 157px;
+  }
+  
+  .book-container {
+    /* outline: solid green; */
+    padding-bottom: 48px;
+    padding-top: 48px;
+    padding-right: 32px;
+    padding-left: 32px;
+    border: 1px solid rgba(220, 202, 135, 0.2);
+    background: var(--0C0C0C, #0c0c0c);
+    box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+  }
+  
+  .book .logo {
+    position: absolute;
+    top: -176px;
+    right: -127px;
+    width: 146px;
+    height: 146px;
+  }
+  
+  .book .spoon-icon {
+    display: block;
+    margin: 8px auto;
+  }
+  
+  .book-spoon {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    display: block;
+  }
+  
+  .book-reserv {
+    color: var(--title-color);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  
+  .book-title {
+    color: var(--accent-color);
+    text-align: center;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 1.92px;
+    text-transform: capitalize;
+    margin-bottom: 64px;
+  }
+  
+  .book-option {
+    color: var(--text-color);
+    text-align: center;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+    text-transform: capitalize;
+  }
+  
+  .book-but {
+    background-color: var(--accent-color);
+    color: #0c0c0c;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+    display: flex;
+    padding: 8px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 64px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .book-list {
+    display: flex;
+    gap: 32px;
+  }
+  
+  .book-item {
+    width: calc((100% - 32px * 2) / 3);
+    /* width: calc((100% - var(--cards-gap) * var(--cards-quantity ) -1)/ var(--cards-quantity)); */
+  }
+  
+  .book-select {
+    /* width: 412px; */
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    color: var(--AAAAAA, #aaa);
+    text-align: center;
+    font-variant-numeric: lining-nums tabular-nums;
+  
+    /* H6 16px Cormorant Upright */
+  
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.75;
+    /* 28px */
+    letter-spacing: 0.64px;
+    text-transform: capitalize;
+  }

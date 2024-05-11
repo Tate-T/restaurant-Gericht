@@ -1,0 +1,133 @@
+.gallery {
+    padding-bottom: 242px;
+  }
+  
+  .container-gallery {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .gallery-photo-text {
+    width: 491px;
+    padding: 80.5px 0px;
+    margin-right: 64px;
+  }
+  
+  .gallery-slogon {
+    color: var(--title-color);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.3;
+    text-transform: capitalize;
+  }
+  
+  .gallery-spoon {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .galery-instagram {
+    width: 52px;
+    height: 52px;
+    fill: white;
+    
+  }
+  
+  
+  
+  /* .gallery-item:hover .gallery-ovlarey {
+    animation-name: gallery-overlay;
+    animation-duration: 250ms;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes gallery-overlay{
+    0%{
+      transform: translateY(451px);
+    }
+    100%{
+      opacity: 0.5;
+      transform: translateY(0px);
+    }
+  
+  } */
+  
+  .gallery-item {
+    position: relative;
+    transition-property:  opacity;
+    transition-duration: 1000ms;
+    transition-timing-function: cubic-bezier(0,.99,.12,.28);
+    overflow: hidden;
+  }
+  
+  .gallery-ovlarey {
+    /* width: ;
+    height: ; */
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(
+      208deg,
+      rgba(0, 0, 0, 0.75) 1.5%,
+      rgba(0, 0, 0, 0.64) 98.62%
+    );
+    transition-property: background-image, opacity, transform;
+    transition-duration: 1s;
+    transform: translateY(451px);
+  }
+  
+  .gallery-item:hover .gallery-ovlarey{
+    transform: translateY(0px);
+    opacity: 0.5;
+  }
+  
+  .gallery-title {
+    color: var(--accent-color);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+  }
+  
+  .gallery-text {
+    color: var(--text-color);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+    margin: 24px 0px;
+  }
+  
+  .gallery-button {
+    color: var(--button-text-color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.75;
+    background-color: var(--accent-color);
+    padding: 8px 32px;
+    cursor: pointer;
+  }
+  
+  .gallery-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 32px;
+  }
+  
+  .photo-gallery {
+    width: 301px;
+    height: 447px;
+  }
+  
+  .gallery .spoon-icon {
+    margin: 8px auto;
+  }

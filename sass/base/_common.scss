@@ -15,7 +15,23 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
   letter-spacing: 0.04em;
+  background-image: url("../../img/wave-element.png");
+  background-position: 0 1111px;
 }
+
+.spoon-icon {
+    fill: var(--accent-color);
+    width: 40px;
+    height: 9px;
+    transition-property:  fill ;
+    transition-duration: 1000ms;
+    transition-timing-function: cubic-bezier(0,.99,.12,.28);
+  }
+  
+  .spoon-icon:hover {
+    fill: white;
+  }
+
 
 .container {
   max-width: 1332px;
@@ -35,12 +51,12 @@ button {
   fill: var(--accent-color);
 }
 
-.button{
+.button {
   transition-property: background, box-shadow;
   transition-duration: 250ms;
 }
 
-.button:hover{
+.button:hover {
   background: var(--DCCA87, #968a5d);
   box-shadow: 7px 5px 10px 0px rgba(255, 255, 255, 0.5);
 }
@@ -59,19 +75,18 @@ button {
 
   background-color: var(--accent-color);
 
-  transition-property:  background-color, box-shadow ;
+  transition-property: background-color, box-shadow;
   transition-duration: 1000ms;
-  transition-timing-function: cubic-bezier(0,.99,.12,.28);
+  transition-timing-function: cubic-bezier(0, 0.99, 0.12, 0.28);
 }
 .icon-arrow-up {
   width: 25px;
   height: 25px;
 }
-.button-scroll:hover  {
+.button-scroll:hover {
   background-color: var(--background-color);
   box-shadow: 3px 3px 15px 5px var(--accent-color);
-  
 }
-.button-scroll:hover .icon-arrow-up  {
-  fill:var(--accent-color);
+.button-scroll:hover .icon-arrow-up {
+  fill: var(--accent-color);
 }

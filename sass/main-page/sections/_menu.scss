@@ -1,0 +1,34 @@
+.menu {
+    padding-top: 293px;
+    padding-bottom: 262px;
+    position: relative;
+    background-image: url(../../img/menu-background.png);
+  }
+  
+  .menu-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 64px;
+  }
+  
+  .menu-link {
+    color: var(--title-color);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 1.92px;
+    text-transform: capitalize;
+  }
+  
+  .menu-item:first-child a {
+    text-decoration-line: underline;
+  }
+  
+  .menu .logo {
+    position: absolute;
+    top: -283px;
+    left: 0;
+    width: 146px;
+    height: 146px;
+  }
