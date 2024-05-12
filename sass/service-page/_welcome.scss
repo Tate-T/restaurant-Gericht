@@ -1,0 +1,27 @@
+.welcome-title {
+    color: var(--DCCA87, #DCCA87);
+text-align: center;
+
+/* H1 90px Cormorant Upright Semi */
+font-family: Cormorant Upright;
+font-size: 90px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 117px */
+letter-spacing: 3.6px;
+text-transform: capitalize;
+}
+
+.welcome-p {
+    color: var(--FFFFFF, #FFF);
+font-variant-numeric: lining-nums tabular-nums;
+
+/* H5 23px Cormorant Upright */
+font-family: Cormorant Upright;
+font-size: 23px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 29.9px */
+letter-spacing: 0.92px;
+text-transform: capitalize;
+}

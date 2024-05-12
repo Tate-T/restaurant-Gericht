@@ -10,11 +10,8 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@400;600;700&family=Ephesis&family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="../style/reset.css">
-  <link rel="stylesheet" href="../style/common.css">
-  <link rel="stylesheet" href="../style/components/header.css">
-  <link rel="stylesheet" href="../style/pages-style/service.css">
-  <link rel="stylesheet" href="../style/components/footer.css">
+
+    <link rel="stylesheet" href="../css/service.min.css">
 </head>
 
 
@@ -22,7 +19,7 @@
 
   <header class="header">
     <div class="container header-container">
-      <h1 class="header-title">Gerícht</h1>
+      <h1 class="header-title  animate__heartBeat">Gerícht</h1>
       <nav class="header-navigation">
         <ul class="header-pages">
           <li class="header-page">
@@ -39,16 +36,14 @@
                 <a href="#menu" class="header-list-link">menu section </a>
               </li>
               <li class="header-item">
-                <a href="#special" class="header-list-link"
-                  >special section
+                <a href="#special" class="header-list-link">special section
                 </a>
               </li>
               <li class="header-item">
                 <a href="#chef" class="header-list-link">chef section </a>
               </li>
               <li class="header-item">
-                <a href="#customers" class="header-list-link"
-                  >customers section
+                <a href="#customers" class="header-list-link">customers section
                 </a>
               </li>
               <li class="header-item">
@@ -62,13 +57,11 @@
                 <a href="#blogs" class="header-list-link">blogs section </a>
               </li>
               <li class="header-item">
-                <a href="#gallery" class="header-list-link"
-                  >gallery section
+                <a href="#gallery" class="header-list-link">gallery section
                 </a>
               </li>
               <li class="header-item">
-                <a href="#basement" class="header-list-link"
-                  >basement section
+                <a href="#basement" class="header-list-link">basement section
                 </a>
               </li>
             </ul>
@@ -413,17 +406,21 @@
       </div>
     </section>
   </main>
-  <footer>
+  <footer class="basement" id="basement">
     <section class="subscribe">
-      <div class="container">
+      <div id="subscribe" class="container subscribe-container">
         <p class="subscribe-slogan">newslater</p>
-        <img src="../img/spoonuwu.png" alt="spoon" class="subscribe-spoon" />
+        <svg class="spoon-icon">
+          <use href="./img/symbol-defs.svg#icon-spoon"></use>
+        </svg>
         <h2 class="subscribe-title">subscribe to our newslatter</h2>
         <!-- <img src="../img/logo.png" alt="logo" class="subscribe-logo" /> -->
         <p class="subscribe-info">And never miss latest Updates!</p>
         <form class="subscribe-form">
           <input type="email" placeholder="Email Address" class="subscribe-input" />
-          <button type="submit" class="subscribe-btn button">Subscribe</button>
+          <button type="submit" class="subscribe-btn button">
+            Subscribe
+          </button>
         </form>
       </div>
     </section>
@@ -450,21 +447,29 @@
               "The best way to find yourself is to lose yourself in the
               service of others.”
             </p>
-            <img src="../img/spoonuwu.png" alt="spoon" class="contact-spoon" />
+            <svg class="spoon-icon-footer">
+              <use href="./img/symbol-defs.svg#icon-spoon"></use>
+            </svg>
             <ul class="contact-socials">
               <li class="contact-social">
                 <a href="" class="contact-path">
-                  <img src="../img/u_facebook-f.png" alt="faceboook" class="contact-icon" />
+                  <svg class="footer-icon">
+                    <use href="./img/symbol-defs.svg#icon-facebook-footer"></use>
+                  </svg>
                 </a>
               </li>
               <li class="contact-social">
                 <a href="" class="contact-path">
-                  <img src="../img/u_twitter-alt.png" alt="twitter" class="contact-icon" />
+                  <svg class="footer-icon">
+                    <use href="./img/symbol-defs.svg#icon-twitter-footer"></use>
+                  </svg>
                 </a>
               </li>
               <li class="contact-path">
                 <a href="">
-                  <img src="../img/u_instagram.png" alt="instagram" class="contact-icon" />
+                  <svg class="footer-icon">
+                    <use href="./img/symbol-defs.svg#icon-instagram-footer"></use>
+                  </svg>
                 </a>
               </li>
             </ul>
@@ -474,7 +479,8 @@
             <ul class="contact-list">
               <li class="contact-item">
                 <p class="contact-schedule">
-                  Monday-Friday: 08:00 am -12:00 am
+                  Monday-Friday:
+                  <span class="contact-time">08:00 am -12:00 am</span>
                 </p>
               </li>
               <li class="list">
