@@ -14,7 +14,7 @@
   }
   
   .gallery-slogon {
-    color: var(--title-color);
+    color: $title-color;
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 23px;
     font-weight: 700;
@@ -89,7 +89,7 @@
   }
   
   .gallery-title {
-    color: var(--accent-color);
+    color: $accent-color;
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 64px;
     font-weight: 600;
@@ -99,7 +99,7 @@
   }
   
   .gallery-text {
-    color: var(--text-color);
+    color: $text-color;
     font-family: Open Sans;
     font-size: 16px;
     font-weight: 400;
@@ -108,11 +108,11 @@
   }
   
   .gallery-button {
-    color: var(--button-text-color);
+    color: $button-text-color;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.75;
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     padding: 8px 32px;
     cursor: pointer;
   }

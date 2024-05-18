@@ -32,7 +32,7 @@
   }
   
   .special-text {
-    color: var(--title-color);
+    color: $title-color;
     font-size: 23px;
     font-weight: 700;
     line-height: 130%;
@@ -50,7 +50,7 @@
   }
   
   .special-title {
-    color: var(--accent-color);
+    color: $accent-color;
     text-align: center;
     font-size: 64px;
     font-weight: 600;
@@ -60,7 +60,7 @@
   }
   
   .specialsub-title {
-    color: var(--title-color);
+    color: $title-color;
     text-align: center;
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 45px;
@@ -71,7 +71,7 @@
   }
   
   .special-drink {
-    color: var(--accent-color);
+    color: $accent-color;
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 23px;
     font-weight: 700;
@@ -88,7 +88,7 @@
   }
   
   .special-price {
-    color: var(--title-color);
+    color: $title-color;
     text-align: center;
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 23px;
@@ -102,7 +102,7 @@
   }
   
   .special-descripton {
-    color: var(--text-color);
+    color: $text-color;
   
     font-family: Open Sans;
     font-size: 16px;
@@ -114,8 +114,8 @@
   
   .special-button {
     display: block;
-    background: var(--accent-color);
-    color: var(--button-text-color);
+    background: $accent-color;
+    color: $button-text-color;
     font-size: 16px;
     font-weight: 700;
     line-height: 175%;

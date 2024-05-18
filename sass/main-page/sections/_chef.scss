@@ -8,7 +8,7 @@
   }
   
   .chef-word {
-    color: var(--title-color);
+    color: $title-color;
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 23px;
     font-weight: 700;
@@ -19,7 +19,7 @@
   }
   
   .chef-title {
-    color: var(--accent-color);
+    color: $accent-color;
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 64px;
     font-style: normal;
@@ -36,7 +36,7 @@
   }
   
   .chef-text {
-    color: var(--text-color);
+    color: $text-color;
     font-family: Open Sans;
     font-size: 16px;
     font-style: italic;
@@ -46,7 +46,7 @@
   }
   
   .chef-name {
-    color: var(--accent-color);
+    color: $accent-color;
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 32px;
     font-weight: 400;
@@ -57,7 +57,7 @@
   }
   
   .chef-position {
-    color: var(--AAAAAA, #aaa);
+    color:  $text-color, #aaa;
     /* Body 16px Regular */
     font-family: "Open Sans";
     font-size: 16px;

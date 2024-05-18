@@ -22,7 +22,7 @@
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    border: solid 0.5px var(--accent-color);
+    border: solid 0.5px $accent-color;
     padding: 47px 44px 44px 47px;
     transition-property:  background-color, box-shadow ;
     transition-duration: 1000ms;
@@ -30,12 +30,12 @@
   }
   
   .video-button:hover {
-    box-shadow: 1px 1px 10px 5px var(--accent-color);
+    box-shadow: 1px 1px 10px 5px $accent-color;
     background-color: rgba(255, 255, 255, 0.1);
   }
   
   .video-button:hover .video-play {
-    fill: var(--accent-color);
+    fill: $accent-color;
   }
   
   .video-play {

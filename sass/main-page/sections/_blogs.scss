@@ -33,7 +33,7 @@
   }
   
   .blogs-title {
-    color: var(--title-color);
+    color: $title-color;
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 23px;
     font-weight: 700;
@@ -43,7 +43,7 @@
   }
   
   .blog-heading {
-    color: var(--accent-color);
+    color: $accent-color;
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 64px;
     font-weight: 600;
@@ -61,7 +61,7 @@
   
   .blog-time,
   .blog-name {
-    color: var(--time-color);
+    color: $time-color;
     font-family: Open Sans;
     font-size: 16px;
     font-weight: 400;
@@ -69,7 +69,7 @@
   }
   
   .blog-subtitle {
-    color: var(--accent-color);
+    color: $accent-color;
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 32px;
     font-weight: 400;
@@ -80,7 +80,7 @@
   }
   
   .blog-text {
-    color: var(--text-color);
+    color: $text-color;
     font-family: Open Sans;
     font-size: 16px;
     font-weight: 400;
@@ -90,7 +90,7 @@
   }
   
   .blog-link {
-    color: var(--accent-color);
+    color: $accent-color;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -98,7 +98,7 @@
   }
   
   .blog-button {
-    color: var(--0C0C0C, #0c0c0c);
+    color: $button-text-color;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -109,7 +109,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: var(--DCCA87, #dcca87);
+    background: $accent-color, #dcca87;
     margin-left: auto;
     margin-right: auto;
     margin-top: 64px;

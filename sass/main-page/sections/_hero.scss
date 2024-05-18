@@ -1,5 +1,5 @@
 .hero-text {
-    color: var(--title-color);
+    color: $title-color;
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 23px;
     font-weight: 700;
@@ -9,7 +9,7 @@
   }
   
   .hero-title {
-    color: var(--accent-color);
+    color: $accent-color;
     font-size: 90px;
     font-weight: 700;
     line-height: 130%;
@@ -22,7 +22,7 @@
   }
 
   .hero-info {
-    color: var(--text-color);
+    color: $text-color;
     font-family: Open Sans;
     font-size: 16px;
     font-weight: 400;
@@ -31,12 +31,12 @@
   }
   
   .hero-button {
-    color: var(--button-text-color);
+    color: $button-text-color;
     font-size: 16px;
     font-weight: 700;
     line-height: 175%;
     letter-spacing: 0.64px;
-    background: var(--DCCA87, #dcca87);
+    background-color: $accent-color, #dcca87;
     padding: 8px 32px;
     animation-name: hero-button;
     animation-duration: 1s;
@@ -44,7 +44,7 @@
   }
 
   .hero-pages {
-    color: var(--decor-color);
+    color: $decor-color;
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 16px;
     font-weight: 600;

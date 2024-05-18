@@ -10,7 +10,7 @@
     padding-right: 32px;
     padding-left: 32px;
     border: 1px solid rgba(220, 202, 135, 0.2);
-    background: var(--0C0C0C, #0c0c0c);
+    background: $button-text-color, #0c0c0c;
     box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
   }
   
@@ -36,7 +36,7 @@
   }
   
   .book-reserv {
-    color: var(--title-color);
+    color: $title-color;
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 23px;
     font-weight: 700;
@@ -47,7 +47,7 @@
   }
   
   .book-title {
-    color: var(--accent-color);
+    color: $accent-color;
     text-align: center;
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 64px;
@@ -59,7 +59,7 @@
   }
   
   .book-option {
-    color: var(--text-color);
+    color: $text-color;
     text-align: center;
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 16px;
@@ -70,7 +70,7 @@
   }
   
   .book-but {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     color: #0c0c0c;
     font-size: 16px;
     font-weight: 700;
@@ -101,7 +101,7 @@
     width: 100%;
     height: 60px;
     background-color: transparent;
-    color: var(--AAAAAA, #aaa);
+    color: $text-color, #aaa;
     text-align: center;
     font-variant-numeric: lining-nums tabular-nums;
   

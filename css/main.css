@@ -34,29 +34,17 @@ img {
   max-width: 100%;
   display: block;
 } */
-:root {
-  --accent-color: #dcca87;
-  --title-color: #fff;
-  --text-color: #aaa;
-  --background-color: #0c0b08;
-  --decor-color: #f5efdb;
-  --time-color: #fafafa;
-  --button-text-color: #0c0c0c;
-  --cards-gap: 32px;
-  --cards-quantity: 3;
-}
-
 body {
   font-family: "Cormorant Upright";
-  background-color: var(--background-color);
-  color: var(--text-color);
+  background-color: #0c0b08;
+  color: #aaa;
   letter-spacing: 0.04em;
   background-image: url(../../img/waveelement.webp);
   background-position: 0px 1110px;
 }
 
 .spoon-icon {
-  fill: var(--accent-color);
+  fill: #dcca87;
   width: 40px;
   height: 9px;
   transition-property: fill;
@@ -83,16 +71,16 @@ button {
 }
 
 .logo {
-  fill: var(--accent-color);
+  fill: #dcca87;
 }
 
 .button {
-  transition-property: background, box-shadow;
+  transition-property: background-color, box-shadow;
   transition-duration: 250ms;
 }
 
 .button:hover {
-  background: var(--DCCA87, #968a5d);
+  background-color: #968a5d, #968a5d;
   box-shadow: 7px 5px 10px 0px rgba(255, 255, 255, 0.5);
 }
 
@@ -106,7 +94,7 @@ button {
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  background-color: var(--accent-color);
+  background-color: #dcca87;
   transition-property: background-color, box-shadow;
   transition-duration: 1000ms;
   transition-timing-function: cubic-bezier(0, 0.99, 0.12, 0.28);
@@ -118,12 +106,12 @@ button {
 }
 
 .button-scroll:hover {
-  background-color: var(--background-color);
-  box-shadow: 3px 3px 15px 5px var(--accent-color);
+  background-color: #0c0b08;
+  box-shadow: 3px 3px 15px 5px #dcca87;
 }
 
 .button-scroll:hover .icon-arrow-up {
-  fill: var(--accent-color);
+  fill: #dcca87;
 }
 
 .header-container {
@@ -143,7 +131,7 @@ button {
 }
 
 .header-title {
-  color: var(--title-color);
+  color: #fff;
   font-size: 44px;
   font-weight: 700;
   line-height: 1.3;
@@ -179,7 +167,7 @@ button {
 }
 
 .header-list-link::after {
-  color: var(--accent-color);
+  color: #dcca87;
 }
 
 @keyframes header-list-link {
@@ -210,7 +198,7 @@ button {
 
 .header-link {
   position: relative;
-  color: var(--title-color);
+  color: #fff;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -228,7 +216,7 @@ button {
   display: block;
   width: 100%;
   height: 4px;
-  background-color: var(--accent-color);
+  background-color: #dcca87;
   transition-property: opacity, transform;
   transition-duration: 1000ms;
   transition-timing-function: cubic-bezier(0, 0.99, 0.12, 0.28);
@@ -265,7 +253,7 @@ button {
 }
 .header-login,
 .header-reg {
-  color: var(--title-color);
+  color: #fff;
   font-family: Open Sans;
   font-size: 16px;
   font-weight: 600;
@@ -275,7 +263,7 @@ button {
 }
 
 .header-menu {
-  color: var(--title-color);
+  color: #fff;
   font-family: Open Sans;
   font-size: 16px;
   font-weight: 600;
@@ -301,7 +289,7 @@ button {
 }
 
 .hero-text {
-  color: var(--title-color);
+  color: #fff;
   font-variant-numeric: lining-nums tabular-nums;
   font-size: 23px;
   font-weight: 700;
@@ -311,7 +299,7 @@ button {
 }
 
 .hero-title {
-  color: var(--accent-color);
+  color: #dcca87;
   font-size: 90px;
   font-weight: 700;
   line-height: 130%;
@@ -324,7 +312,7 @@ button {
 }
 
 .hero-info {
-  color: var(--text-color);
+  color: #aaa;
   font-family: Open Sans;
   font-size: 16px;
   font-weight: 400;
@@ -333,12 +321,12 @@ button {
 }
 
 .hero-button {
-  color: var(--button-text-color);
+  color: #0c0c0c;
   font-size: 16px;
   font-weight: 700;
   line-height: 175%;
   letter-spacing: 0.64px;
-  background: var(--DCCA87, #dcca87);
+  background-color: #dcca87, #dcca87;
   padding: 8px 32px;
   animation-name: hero-button;
   animation-duration: 1s;
@@ -346,7 +334,7 @@ button {
 }
 
 .hero-pages {
-  color: var(--decor-color);
+  color: #f5efdb;
   font-variant-numeric: lining-nums tabular-nums;
   font-size: 16px;
   font-weight: 600;
@@ -424,7 +412,7 @@ button {
 }
 
 .about-title {
-  color: var(--accent-color);
+  color: #dcca87;
   text-align: right;
   font-variant-numeric: lining-nums tabular-nums;
   font-size: 64px;
@@ -445,7 +433,7 @@ button {
 }
 
 .about-text {
-  color: var(--text-color);
+  color: #aaa;
   font-family: Open Sans;
   font-size: 16px;
   font-weight: 400;
@@ -456,8 +444,8 @@ button {
 }
 
 .about-button {
-  background: var(--accent-color);
-  color: var(--button-text-color);
+  background: #dcca87;
+  color: #0c0c0c;
   font-size: 16px;
   font-weight: 700;
   line-height: 175%;
@@ -478,7 +466,7 @@ button {
   padding-right: 32px;
   padding-left: 32px;
   border: 1px solid rgba(220, 202, 135, 0.2);
-  background: var(--0C0C0C, #0c0c0c);
+  background: #0c0c0c, #0c0c0c;
   box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
 }
 
@@ -504,7 +492,7 @@ button {
 }
 
 .book-reserv {
-  color: var(--title-color);
+  color: #fff;
   font-variant-numeric: lining-nums tabular-nums;
   font-size: 23px;
   font-weight: 700;
@@ -515,7 +503,7 @@ button {
 }
 
 .book-title {
-  color: var(--accent-color);
+  color: #dcca87;
   text-align: center;
   font-variant-numeric: lining-nums tabular-nums;
   font-size: 64px;
@@ -527,7 +515,7 @@ button {
 }
 
 .book-option {
-  color: var(--text-color);
+  color: #aaa;
   text-align: center;
   font-variant-numeric: lining-nums tabular-nums;
   font-size: 16px;
@@ -538,7 +526,7 @@ button {
 }
 
 .book-but {
-  background-color: var(--accent-color);
+  background-color: #dcca87;
   color: #0c0c0c;
   font-size: 16px;
   font-weight: 700;
@@ -569,7 +557,7 @@ button {
   width: 100%;
   height: 60px;
   background-color: transparent;
-  color: var(--AAAAAA, #aaa);
+  color: #aaa, #aaa;
   text-align: center;
   font-variant-numeric: lining-nums tabular-nums;
   /* H6 16px Cormorant Upright */
@@ -650,7 +638,7 @@ button {
 }
 
 .special-text {
-  color: var(--title-color);
+  color: #fff;
   font-size: 23px;
   font-weight: 700;
   line-height: 130%;
@@ -668,7 +656,7 @@ button {
 }
 
 .special-title {
-  color: var(--accent-color);
+  color: #dcca87;
   text-align: center;
   font-size: 64px;
   font-weight: 600;
@@ -678,7 +666,7 @@ button {
 }
 
 .specialsub-title {
-  color: var(--title-color);
+  color: #fff;
   text-align: center;
   font-variant-numeric: lining-nums tabular-nums;
   font-size: 45px;
@@ -689,7 +677,7 @@ button {
 }
 
 .special-drink {
-  color: var(--accent-color);
+  color: #dcca87;
   font-variant-numeric: lining-nums tabular-nums;
   font-size: 23px;
   font-weight: 700;
@@ -706,7 +694,7 @@ button {
 }
 
 .special-price {
-  color: var(--title-color);
+  color: #fff;
   text-align: center;
   font-variant-numeric: lining-nums tabular-nums;
   font-size: 23px;
@@ -720,7 +708,7 @@ button {
 }
 
 .special-descripton {
-  color: var(--text-color);
+  color: #aaa;
   font-family: Open Sans;
   font-size: 16px;
   font-weight: 400;
@@ -731,8 +719,8 @@ button {
 
 .special-button {
   display: block;
-  background: var(--accent-color);
-  color: var(--button-text-color);
+  background: #dcca87;
+  color: #0c0c0c;
   font-size: 16px;
   font-weight: 700;
   line-height: 175%;
@@ -755,7 +743,7 @@ button {
 }
 
 .chef-word {
-  color: var(--title-color);
+  color: #fff;
   font-variant-numeric: lining-nums tabular-nums;
   font-size: 23px;
   font-weight: 700;
@@ -766,7 +754,7 @@ button {
 }
 
 .chef-title {
-  color: var(--accent-color);
+  color: #dcca87;
   font-variant-numeric: lining-nums tabular-nums;
   font-size: 64px;
   font-style: normal;
@@ -783,7 +771,7 @@ button {
 }
 
 .chef-text {
-  color: var(--text-color);
+  color: #aaa;
   font-family: Open Sans;
   font-size: 16px;
   font-style: italic;
@@ -793,7 +781,7 @@ button {
 }
 
 .chef-name {
-  color: var(--accent-color);
+  color: #dcca87;
   font-variant-numeric: lining-nums tabular-nums;
   font-size: 32px;
   font-weight: 400;
@@ -804,7 +792,7 @@ button {
 }
 
 .chef-position {
-  color: var(--AAAAAA, #aaa);
+  color: #aaa, #aaa;
   /* Body 16px Regular */
   font-family: "Open Sans";
   font-size: 16px;
@@ -838,7 +826,7 @@ button {
 
 .customers-text {
   text-align: center;
-  color: var(--title-color);
+  color: #fff;
   font-size: 23px;
   font-weight: 700;
   text-transform: capitalize;
@@ -854,7 +842,7 @@ button {
 
 .customers-title {
   text-align: center;
-  color: var(--accent-color);
+  color: #dcca87;
   font-size: 64px;
   font-weight: 600;
   text-transform: capitalize;
@@ -893,7 +881,7 @@ button {
 }
 
 .customers-description {
-  color: var(--text-color);
+  color: #aaa;
   font-family: Open Sans;
   font-style: italic;
   font-weight: 400;
@@ -902,7 +890,7 @@ button {
 }
 
 .customers-name {
-  color: var(--accent-color);
+  color: #dcca87;
   font-size: 32px;
   font-weight: 400;
   text-transform: capitalize;
@@ -911,7 +899,7 @@ button {
 }
 
 .customers-position {
-  color: var(--decor-color);
+  color: #f5efdb;
   font-size: 16px;
   font-family: Open Sans;
   font-weight: 400;
@@ -949,7 +937,7 @@ button {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  border: solid 0.5px var(--accent-color);
+  border: solid 0.5px #dcca87;
   padding: 47px 44px 44px 47px;
   transition-property: background-color, box-shadow;
   transition-duration: 1000ms;
@@ -957,12 +945,12 @@ button {
 }
 
 .video-button:hover {
-  box-shadow: 1px 1px 10px 5px var(--accent-color);
+  box-shadow: 1px 1px 10px 5px accent-color;
   background-color: rgba(255, 255, 255, 0.1);
 }
 
 .video-button:hover .video-play {
-  fill: var(--accent-color);
+  fill: accent-color;
 }
 
 .video-play {
@@ -994,7 +982,7 @@ button {
 }
 
 .awards-info {
-  color: var(--FFFFFF, #FFF);
+  color: #fff, #FFF;
   font-variant-numeric: lining-nums tabular-nums;
   /* H5 23px Cormorant Upright */
   font-family: "Cormorant Upright";
@@ -1008,7 +996,7 @@ button {
 }
 
 .awards-text {
-  color: var(--AAAAAA, #AAA);
+  color: #aaa, #AAA;
   font-family: "Open Sans";
   font-variant-numeric: lining-nums tabular-nums;
   font-size: 16px;
@@ -1019,7 +1007,7 @@ button {
 }
 
 .awards-title {
-  color: var(--accent-color);
+  color: #dcca87;
   font-variant-numeric: lining-nums tabular-nums;
   font-size: 64px;
   font-weight: 600;
@@ -1046,7 +1034,7 @@ button {
 }
 
 .awards-subtitle {
-  color: var(--accent-color);
+  color: #dcca87;
   font-family: Cormorant Upright;
   font-size: 23px;
   font-weight: 700;
@@ -1056,7 +1044,7 @@ button {
 }
 
 .awards-type {
-  color: var(--accent-color);
+  color: #dcca87;
   font-variant-numeric: lining-nums tabular-nums;
   font-size: 23px;
   font-weight: 700;
@@ -1065,7 +1053,7 @@ button {
 }
 
 .awards-sublist {
-  color: var(--text-color);
+  color: #aaa;
   font-family: Open Sans;
   font-size: 16px;
   font-weight: 400;
@@ -1124,7 +1112,7 @@ button {
 }
 
 .blogs-title {
-  color: var(--title-color);
+  color: #fff;
   font-variant-numeric: lining-nums tabular-nums;
   font-size: 23px;
   font-weight: 700;
@@ -1133,7 +1121,7 @@ button {
 }
 
 .blog-heading {
-  color: var(--accent-color);
+  color: #dcca87;
   font-variant-numeric: lining-nums tabular-nums;
   font-size: 64px;
   font-weight: 600;
@@ -1151,7 +1139,7 @@ button {
 
 .blog-time,
 .blog-name {
-  color: var(--time-color);
+  color: #fafafa;
   font-family: Open Sans;
   font-size: 16px;
   font-weight: 400;
@@ -1159,7 +1147,7 @@ button {
 }
 
 .blog-subtitle {
-  color: var(--accent-color);
+  color: #dcca87;
   font-variant-numeric: lining-nums tabular-nums;
   font-size: 32px;
   font-weight: 400;
@@ -1169,7 +1157,7 @@ button {
 }
 
 .blog-text {
-  color: var(--text-color);
+  color: #aaa;
   font-family: Open Sans;
   font-size: 16px;
   font-weight: 400;
@@ -1179,7 +1167,7 @@ button {
 }
 
 .blog-link {
-  color: var(--accent-color);
+  color: #dcca87;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -1187,7 +1175,7 @@ button {
 }
 
 .blog-button {
-  color: var(--0C0C0C, #0c0c0c);
+  color: #0c0c0c;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -1198,7 +1186,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: var(--DCCA87, #dcca87);
+  background: #dcca87, #dcca87;
   margin-left: auto;
   margin-right: auto;
   margin-top: 64px;
@@ -1240,7 +1228,7 @@ button {
 }
 
 .gallery-slogon {
-  color: var(--title-color);
+  color: #fff;
   font-variant-numeric: lining-nums tabular-nums;
   font-size: 23px;
   font-weight: 700;
@@ -1307,7 +1295,7 @@ button {
 }
 
 .gallery-title {
-  color: var(--accent-color);
+  color: #dcca87;
   font-variant-numeric: lining-nums tabular-nums;
   font-size: 64px;
   font-weight: 600;
@@ -1317,7 +1305,7 @@ button {
 }
 
 .gallery-text {
-  color: var(--text-color);
+  color: #aaa;
   font-family: Open Sans;
   font-size: 16px;
   font-weight: 400;
@@ -1326,11 +1314,11 @@ button {
 }
 
 .gallery-button {
-  color: var(--button-text-color);
+  color: #0c0c0c;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.75;
-  background-color: var(--accent-color);
+  background-color: #dcca87;
   padding: 8px 32px;
   cursor: pointer;
 }
@@ -1360,7 +1348,7 @@ footer {
 .spoon-icon-footer {
   width: 40px;
   height: 9px;
-  fill: var(--accent-color);
+  fill: #dcca87;
   margin: 16px auto;
 }
 
@@ -1402,7 +1390,7 @@ footer {
   width: 635px;
   height: 60px;
   flex-shrink: 0;
-  border: 1px solid var(--F5EFDB, #f5efdb);
+  border: 1px solid #f5efdb, #f5efdb;
   background-color: transparent;
   padding-left: 19px;
 }
@@ -1411,11 +1399,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid var(--DCCA87, #dcca87);
-  background: var(--DCCA87, #dcca87);
+  border: 1px solid #dcca87, #dcca87;
+  background: #dcca87, #dcca87;
   width: 129px;
   height: 44px;
-  color: var(--0C0C0C, #0c0c0c);
+  color: #0c0c0c, #0c0c0c;
   font-family: Cormorant Upright;
   font-size: 16px;
   font-weight: 700;
@@ -1431,7 +1419,7 @@ footer {
 }
 
 .subscribe-title {
-  color: var(--accent-color);
+  color: #dcca87;
   text-align: center;
   font-family: Cormorant Upright;
   font-size: 64px;
@@ -1443,7 +1431,7 @@ footer {
 }
 
 .subscribe-slogan {
-  color: var(--FFFFFF, #FFF);
+  color: #fff, #FFF;
   font-variant-numeric: lining-nums tabular-nums;
   /* H5 23px Cormorant Upright */
   font-family: "Cormorant Upright";
@@ -1466,7 +1454,7 @@ footer {
   display: flex;
   justify-content: center;
   margin-bottom: 24px;
-  color: var(--decor-color);
+  color: #f5efdb;
 }
 
 .contact-box {
@@ -1519,7 +1507,7 @@ footer {
 }
 
 .contact-logo {
-  color: var(--accent-color);
+  color: #dcca87;
   text-align: center;
   font-family: Cormorant Upright;
   font-size: 64px;
@@ -1542,7 +1530,7 @@ footer {
   font-weight: 400;
   line-height: 1.75;
   letter-spacing: 0.04em;
-  color: var(--title-color);
+  color: #fff;
 }
 
 .contact-spoon {
@@ -1582,7 +1570,7 @@ footer {
   line-height: 1.75;
   letter-spacing: 0.04em;
   margin-top: 80px;
-  color: var(--text-color);
+  color: #aaa;
   font-family: Open Sans;
 }
 
@@ -1606,8 +1594,8 @@ footer {
 .modal {
   width: 400px;
   /* height: 400px; */
-  color: var(--accent-color);
-  background-color: var(--background-color);
+  color: #dcca87;
+  background-color: #0c0b08;
   border-radius: 10px;
   box-shadow: 0px 0px 38px 15px;
   position: absolute;
@@ -1649,8 +1637,8 @@ footer {
 
 .backdrop-button {
   display: block;
-  color: var(--button-text-color);
-  background-color: var(--accent-color);
+  color: #0c0c0c;
+  background-color: #dcca87;
   font-size: 16px;
   font-weight: 700;
   line-height: 175%;
@@ -1664,12 +1652,12 @@ footer {
 }
 
 .backdrop-button:hover {
-  color: var(--accent-color);
-  background-color: var(--title-color);
+  color: #dcca87;
+  background-color: #fff;
 }
 
 .modal-close-icon {
-  fill: var(--accent-color);
+  fill: #dcca87;
   width: 15px;
   height: 15px;
 }
@@ -1679,7 +1667,7 @@ footer {
   height: 20px;
   background-color: transparent;
   border-radius: 100%;
-  border: solid 1px var(--accent-color);
+  border: solid 1px #dcca87;
   display: flex;
   justify-content: center;
   align-items: center;

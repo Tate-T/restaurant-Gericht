@@ -37,7 +37,7 @@
   }
   
   .about-title {
-    color: var(--accent-color);
+    color: $accent-color;
     text-align: right;
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 64px;
@@ -58,7 +58,7 @@
   }
   
   .about-text {
-    color: var(--text-color);
+    color: $text-color;
     font-family: Open Sans;
     font-size: 16px;
     font-weight: 400;
@@ -69,8 +69,8 @@
   }
   
   .about-button {
-    background: var(--accent-color);
-    color: var(--button-text-color);
+    background: $accent-color;
+    color: $button-text-color;
     font-size: 16px;
     font-weight: 700;
     line-height: 175%;
