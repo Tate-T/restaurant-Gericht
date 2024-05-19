@@ -48,3 +48,45 @@
       opacity: 1;
     }
   }
+
+  @keyframes header-list-link {
+    0% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 0.3;
+      background-color: white;
+    }
+    50% {
+      opacity: 0.5;
+      background-color: blue;
+    }
+    75% {
+      opacity: 0.7;
+      background-color: red;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes header-link {
+    0% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 0.3;
+      background-color: white;
+    }
+    50% {
+      opacity: 0.5;
+      background-color: blue;
+    }
+    75% {
+      opacity: 0.7;
+      background-color: red;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

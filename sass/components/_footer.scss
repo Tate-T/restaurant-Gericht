@@ -1,83 +1,34 @@
 footer {
-    padding-bottom: 128px;
-    background-image:linear-gradient(rgba(4, 4, 4, 0.5), rgba(4, 4, 4, 0.5)), url(../../img/malik.png);
-    background-position: 0 221px;
-    background-repeat: no-repeat;
+  padding-bottom: 128px;
+  background-image: linear-gradient(rgba(4, 4, 4, 0.5), rgba(4, 4, 4, 0.5)),
+    url(../../img/malik.png);
+  background-position: 0 221px;
+  background-repeat: no-repeat;
+}
+
+.subscribe {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  text-align: center;
+
+  &__slogan {
+    color: $title-color, #fff;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: "Cormorant Upright";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
   }
-  
-  .spoon-icon-footer {
-    width: 40px;
-    height: 9px;
-    fill: $accent-color;
-    margin: 16px auto;
-  }
-  
-  .footer-icon {
-    width: 24px;
-    height: 24px;
-    fill: #fff;
-  }
-  .contact .container {
-    padding-bottom: 16px;
-  }
-  .subscribe {
-    padding-top: 64px;
-    padding-bottom: 64px;
-    text-align: center;
-  }
-  
-  .subscribe-spoon {
+
+  &__spoon {
     margin-top: 8px;
     margin-bottom: 8px;
   }
-  
-  .subscribe-info {
-    margin-bottom: 64px;
-    color: #FFF;
-  
-  text-align: center;
-  /* Body 16px Regular */
-  font-family: "Open Sans";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 175%; /* 28px */
-  letter-spacing: 0.64px;
-  }
-  
-  .subscribe-input {
-    width: 635px;
-    height: 60px;
-    flex-shrink: 0;
-    border: 1px solid $decor-color, #f5efdb;
-    background-color: transparent;
-    padding-left: 19px;
-  }
-  
-  .subscribe-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid $accent-color, #dcca87;
-    background: $accent-color, #dcca87;
-    width: 129px;
-    height: 44px;
-    color: $button-text-color, #0c0c0c;
-    font-family: Cormorant Upright;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 175%;
-    letter-spacing: 0.64px;
-  }
-  
-  .subscribe-form {
-    display: flex;
-    justify-content: center;
-    gap: 32px;
-    align-items: center;
-  }
-  
-  .subscribe-title {
+
+  &__title {
     color: $accent-color;
     text-align: center;
     font-family: Cormorant Upright;
@@ -88,22 +39,84 @@ footer {
     text-transform: capitalize;
     margin-bottom: 24px;
   }
-  
-  .subscribe-slogan{
-    color: $title-color, #FFF;
-  font-variant-numeric: lining-nums tabular-nums;
-  /* H5 23px Cormorant Upright */
-  font-family: "Cormorant Upright";
-  font-size: 23px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 130%; /* 29.9px */
-  letter-spacing: 0.92px;
-  text-transform: capitalize;
+
+  &__info {
+    margin-bottom: 64px;
+    color: #fff;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%;
+    letter-spacing: 0.64px;
   }
-  
-  /* Contact */
-  .contact-title {
+
+  &__form {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    align-items: center;
+  }
+
+  &__input {
+    width: 635px;
+    height: 60px;
+    flex-shrink: 0;
+    border: 1px solid $decor-color;
+    background-color: transparent;
+    padding-left: 19px;
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $accent-color;
+    background-color: $accent-color;
+    width: 129px;
+    height: 44px;
+    color: $button-text-color;
+    font-family: Cormorant Upright;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+  }
+}
+
+.contact {
+  &__container {
+    display: flex;
+  }
+
+  & .container {
+    padding-bottom: 16px;
+  }
+
+  &__box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: Open Sans;
+
+    &:first-child {
+      margin-right: 126px;
+    }
+
+    &:nth-child(2) {
+      margin-right: 228px;
+    }
+
+    &:last-child {
+      flex-shrink: 0;
+      text-align: center;
+    }
+  }
+
+  &__title {
+    font-variant-numeric: lining-nums tabular-nums;
     font-family: Cormorant Upright;
     font-size: 32px;
     font-weight: 400;
@@ -115,33 +128,8 @@ footer {
     margin-bottom: 24px;
     color: $decor-color;
   }
-  
-  .contact-box {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    font-family: Open Sans;
-  }
-  
-  .contact-box:first-child {
-    margin-right: 126px;
-  }
-  
-  .contact-box:nth-child(2) {
-    margin-right: 228px;
-    /* width: 438px; */
-  }
-  .contact-box:last-child {
-    flex-shrink: 0;
-    /* outline: red solid 1px; */
-    text-align: center;
-  }
-  .contact-container {
-    display: flex;
-  }
-  
-  .contact-addres {
+
+  &__addres {
     font-weight: 400;
     line-height: 1.75;
     letter-spacing: 0.04em;
@@ -149,20 +137,21 @@ footer {
     width: 305px;
     font-style: normal;
   }
-  
-  .contact-list {
+
+  &__list {
     display: flex;
     align-items: center;
     flex-direction: column;
   }
-  .contact-link {
+
+  &__link {
     color: inherit;
     font-weight: 400;
     line-height: 1.75;
     letter-spacing: 0.04em;
   }
-  
-  .contact-logo {
+
+  &__logo {
     color: $accent-color;
     text-align: center;
     font-family: Cormorant Upright;
@@ -173,39 +162,32 @@ footer {
     text-transform: uppercase;
     margin-bottom: 32px;
   }
-  
-  .contact-socials {
-    display: flex;
-    justify-content: center;
-    column-gap: 16px;
-  }
-  
-  .contact-info {
+
+  &__info {
     text-align: center;
     font-weight: 400;
     line-height: 1.75;
     letter-spacing: 0.04em;
     color: $title-color;
   }
-  
-  .contact-spoon {
-    width: 40px;
-    height: 9px;
-    margin-right: auto;
-    margin-left: auto;
+
+  &__spoon {
     margin: 16px auto;
   }
-  .contact-title {
-    font-variant-numeric: lining-nums tabular-nums;
-    font-family: Cormorant Upright;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 1.3;
-    letter-spacing: 0.04em;
-    text-transform: capitalize;
+
+  &__socials {
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
   }
-  
-  .contact-schedule {
+
+  &__icon {
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+  }
+
+  &__schedule {
     text-align: center;
     font-weight: 400;
     line-height: 1.75;
@@ -213,10 +195,12 @@ footer {
     margin-bottom: 8px;
     width: 203px;
   }
-  .contact-time {
+
+  &__time {
     display: block;
   }
-  .contact-copyright {
+
+  &__copyright {
     text-align: center;
     font-weight: 400;
     line-height: 1.75;
@@ -225,4 +209,4 @@ footer {
     color: $text-color;
     font-family: Open Sans;
   }
-  
+}
