@@ -1,9 +1,8 @@
 .book {
-    padding-bottom: 200px;
-    padding-top: 157px;
-  }
-  
-  .book-container {
+  padding-bottom: 200px;
+  padding-top: 157px;
+
+  &__container {
     /* outline: solid green; */
     padding-bottom: 48px;
     padding-top: 48px;
@@ -13,29 +12,21 @@
     background: $button-text-color, #0c0c0c;
     box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
   }
-  
-  .book .logo {
+
+  &__logo {
     position: absolute;
     top: -176px;
     right: -127px;
     width: 146px;
     height: 146px;
   }
-  
-  .book .spoon-icon {
+
+  & .spoon-icon {
     display: block;
     margin: 8px auto;
   }
-  
-  .book-spoon {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 8px;
-    margin-top: 8px;
-    display: block;
-  }
-  
-  .book-reserv {
+
+  &__reserv {
     color: $title-color;
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 23px;
@@ -45,8 +36,8 @@
     text-transform: capitalize;
     text-align: center;
   }
-  
-  .book-title {
+
+  &__title {
     color: $accent-color;
     text-align: center;
     font-variant-numeric: lining-nums tabular-nums;
@@ -57,8 +48,37 @@
     text-transform: capitalize;
     margin-bottom: 64px;
   }
-  
-  .book-option {
+
+  &__list {
+    display: flex;
+    gap: 32px;
+  }
+
+  &__item {
+    width: calc((100% - 32px * 2) / 3);
+    /* width: calc((100% - var(--cards-gap) * var(--cards-quantity ) -1)/ var(--cards-quantity)); */
+  }
+
+  &__select {
+    /* width: 412px; */
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    color: $text-color;
+    text-align: center;
+    font-variant-numeric: lining-nums tabular-nums;
+
+    /* H6 16px Cormorant Upright */
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.75;
+    /* 28px */
+    letter-spacing: 0.64px;
+    text-transform: capitalize;
+  }
+
+  &__option {
     color: $text-color;
     text-align: center;
     font-variant-numeric: lining-nums tabular-nums;
@@ -68,8 +88,8 @@
     letter-spacing: 0.64px;
     text-transform: capitalize;
   }
-  
-  .book-but {
+
+  &__but {
     background-color: $accent-color;
     color: #0c0c0c;
     font-size: 16px;
@@ -85,32 +105,4 @@
     margin-left: auto;
     margin-right: auto;
   }
-  
-  .book-list {
-    display: flex;
-    gap: 32px;
-  }
-  
-  .book-item {
-    width: calc((100% - 32px * 2) / 3);
-    /* width: calc((100% - var(--cards-gap) * var(--cards-quantity ) -1)/ var(--cards-quantity)); */
-  }
-  
-  .book-select {
-    /* width: 412px; */
-    width: 100%;
-    height: 60px;
-    background-color: transparent;
-    color: $text-color, #aaa;
-    text-align: center;
-    font-variant-numeric: lining-nums tabular-nums;
-  
-    /* H6 16px Cormorant Upright */
-  
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 1.75;
-    /* 28px */
-    letter-spacing: 0.64px;
-    text-transform: capitalize;
-  }
+}

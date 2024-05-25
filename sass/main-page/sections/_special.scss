@@ -1,37 +1,8 @@
-.specail-box {
-    display: flex;
-    gap: 32px;
-  }
-  
-  .special-menu {
-    width: 412px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .specail-list {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    margin-top: 48px;
-  }
-  
-  .special-coctail {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .special {
-    padding-top: 152px;
-    padding-bottom: 160px;
-  }
-  
-  .special .spoon-icon {
-    display: block;
-    margin: 8px auto;
-  }
-  
-  .special-text {
+.special {
+  padding-top: 152px;
+  padding-bottom: 160px;
+
+  &__text {
     color: $title-color;
     font-size: 23px;
     font-weight: 700;
@@ -41,15 +12,13 @@
     margin-bottom: 8px;
     text-align: center;
   }
-  
-  .special-soon {
-    margin-bottom: 8px;
+
+  & .spoon-icon {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 8px auto;
   }
-  
-  .special-title {
+
+  &__title {
     color: $accent-color;
     text-align: center;
     font-size: 64px;
@@ -58,8 +27,19 @@
     letter-spacing: 2.56px;
     text-transform: capitalize;
   }
-  
-  .specialsub-title {
+
+  &__box {
+    display: flex;
+    gap: 32px;
+  }
+
+  &__menu {
+    width: 412px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__title {
     color: $title-color;
     text-align: center;
     font-variant-numeric: lining-nums tabular-nums;
@@ -69,8 +49,20 @@
     letter-spacing: 1.8px;
     text-transform: capitalize;
   }
-  
-  .special-drink {
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 48px;
+  }
+
+  &__coctail {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__drink {
     color: $accent-color;
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 23px;
@@ -79,15 +71,8 @@
     letter-spacing: 0.92px;
     text-transform: capitalize;
   }
-  
-  .special-price::before {
-    content: "";
-    width: 119px;
-    height: 1px;
-    background-color: white;
-  }
-  
-  .special-price {
+
+  &__price {
     color: $title-color;
     text-align: center;
     font-variant-numeric: lining-nums tabular-nums;
@@ -99,11 +84,18 @@
     display: flex;
     align-items: center;
     gap: 32px;
+
+    &::before {
+      content: "";
+      width: 119px;
+      height: 1px;
+      background-color: $title-color;
+    }
   }
-  
-  .special-descripton {
+
+  &__descripton {
     color: $text-color;
-  
+
     font-family: Open Sans;
     font-size: 16px;
     font-weight: 400;
@@ -111,8 +103,8 @@
     letter-spacing: 0.64px;
     margin-top: 9px;
   }
-  
-  .special-button {
+
+  &__button {
     display: block;
     background: $accent-color;
     color: $button-text-color;
@@ -128,3 +120,4 @@
     padding-top: 8px;
     padding-bottom: 8px;
   }
+}
