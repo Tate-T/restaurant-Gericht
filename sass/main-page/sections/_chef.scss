@@ -1,13 +1,22 @@
 .chef {
-    background-image: linear-gradient(rgba(4, 4, 4, 0.5), rgba(4, 4, 4, 0.5)),
-      url(../../img/malik.png);
+  background-image: linear-gradient(rgba(4, 4, 4, 0.5), rgba(4, 4, 4, 0.5)),
+    url(../../img/malik.png);
+  padding: 128px;
+
+  &__container {
+    display: flex;
+    gap: 96px;
   }
 
-  .chef {
-    padding: 128px;
+  &__chef {
+    height: 789px;
   }
-  
-  .chef-word {
+
+  &__box {
+    padding-top: 87px;
+  }
+
+  &__word {
     color: $title-color;
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 23px;
@@ -17,8 +26,8 @@
     text-transform: capitalize;
     margin-bottom: 8px;
   }
-  
-  .chef-title {
+
+  &__title {
     color: $accent-color;
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 64px;
@@ -30,12 +39,8 @@
     margin-bottom: 76px;
     margin-top: 8px;
   }
-  
-  .chef-chef {
-    height: 789px;
-  }
-  
-  .chef-text {
+
+  &__text {
     color: $text-color;
     font-family: Open Sans;
     font-size: 16px;
@@ -44,8 +49,8 @@
     line-height: 175%;
     letter-spacing: 0.64px;
   }
-  
-  .chef-name {
+
+  &__name {
     color: $accent-color;
     font-variant-numeric: lining-nums tabular-nums;
     font-size: 32px;
@@ -55,9 +60,9 @@
     text-transform: capitalize;
     margin-top: 64px;
   }
-  
-  .chef-position {
-    color:  $text-color, #aaa;
+
+  &__position {
+    color: $text-color, #aaa;
     /* Body 16px Regular */
     font-family: "Open Sans";
     font-size: 16px;
@@ -68,12 +73,4 @@
     margin-top: 8px;
     margin-bottom: 64px;
   }
-  
-  .chef-container {
-    display: flex;
-    gap: 96px;
-  }
-  
-  .chef-box {
-    padding-top: 87px;
-  }
+}

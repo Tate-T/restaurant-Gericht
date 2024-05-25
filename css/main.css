@@ -589,13 +589,19 @@ button {
 
 .chef {
   background-image: linear-gradient(rgba(4, 4, 4, 0.5), rgba(4, 4, 4, 0.5)), url(../../img/malik.png);
-}
-
-.chef {
   padding: 128px;
 }
-
-.chef-word {
+.chef__container {
+  display: flex;
+  gap: 96px;
+}
+.chef__chef {
+  height: 789px;
+}
+.chef__box {
+  padding-top: 87px;
+}
+.chef__word {
   color: #fff;
   font-variant-numeric: lining-nums tabular-nums;
   font-size: 23px;
@@ -605,8 +611,7 @@ button {
   text-transform: capitalize;
   margin-bottom: 8px;
 }
-
-.chef-title {
+.chef__title {
   color: #dcca87;
   font-variant-numeric: lining-nums tabular-nums;
   font-size: 64px;
@@ -618,12 +623,7 @@ button {
   margin-bottom: 76px;
   margin-top: 8px;
 }
-
-.chef-chef {
-  height: 789px;
-}
-
-.chef-text {
+.chef__text {
   color: #aaa;
   font-family: Open Sans;
   font-size: 16px;
@@ -632,8 +632,7 @@ button {
   line-height: 175%;
   letter-spacing: 0.64px;
 }
-
-.chef-name {
+.chef__name {
   color: #dcca87;
   font-variant-numeric: lining-nums tabular-nums;
   font-size: 32px;
@@ -643,8 +642,7 @@ button {
   text-transform: capitalize;
   margin-top: 64px;
 }
-
-.chef-position {
+.chef__position {
   color: #aaa, #aaa;
   /* Body 16px Regular */
   font-family: "Open Sans";
@@ -657,27 +655,11 @@ button {
   margin-bottom: 64px;
 }
 
-.chef-container {
-  display: flex;
-  gap: 96px;
-}
-
-.chef-box {
-  padding-top: 87px;
-}
-
 .customers {
   padding-top: 152px;
   padding-bottom: 152px;
 }
-
-.customers .spoon-icon {
-  margin: 8px auto;
-  display: block;
-  margin: 8px auto;
-}
-
-.customers-text {
+.customers__text {
   text-align: center;
   color: #fff;
   font-size: 23px;
@@ -686,14 +668,12 @@ button {
   line-height: 1.3;
   margin-bottom: 8px;
 }
-
-.customers-spoon {
-  margin-bottom: 8px;
+.customers .spoon-icon {
+  margin: 8px auto;
   display: block;
   margin: 8px auto;
 }
-
-.customers-title {
+.customers__title {
   text-align: center;
   color: #dcca87;
   font-size: 64px;
@@ -703,37 +683,33 @@ button {
   letter-spacing: 0.03;
   margin-bottom: 64px;
 }
-
-/* .customers-img {
-}
-.cusomers-icon {
-} */
-.customer-div {
-  position: relative;
-  padding-top: 18px;
-}
-
-.customers-list {
+.customers__list {
   display: flex;
   row-gap: 64px;
   -moz-column-gap: 32px;
        column-gap: 32px;
   flex-wrap: wrap;
 }
-
-.customers-item {
+.customers__item {
   width: 634px;
   height: 210px;
   display: flex;
-  /* width: calc((100% - ( var(--cards-gap) * (var(--cards-quantity ) -1))) / var(--cards-quantity)); */
-  /* width: calc((100% - 32px * 2 ) / 3 ); */
+  /* width: calc((100% - ( var(--cards-gap) * (var(--cards-quantity ) -1))) / var(--cards-quantity)); /
+  / width: calc((100% - 32px * 2 ) / 3 ); */
 }
-
-.customers-img {
+.customers__img {
   margin-right: 32px;
 }
-
-.customers-description {
+.customers__div {
+  position: relative;
+  padding-top: 18px;
+}
+.customers .icon-quots {
+  position: absolute;
+  bottom: -20px;
+  left: -63px;
+}
+.customers__description {
   color: #aaa;
   font-family: Open Sans;
   font-style: italic;
@@ -741,8 +717,7 @@ button {
   line-height: 1.75;
   margin-bottom: 16px;
 }
-
-.customers-name {
+.customers__name {
   color: #dcca87;
   font-size: 32px;
   font-weight: 400;
@@ -750,25 +725,12 @@ button {
   line-height: 1.3;
   margin-bottom: 4px;
 }
-
-.customers-position {
+.customers__position {
   color: #f5efdb;
   font-size: 16px;
   font-family: Open Sans;
   font-weight: 400;
   line-height: 1.75;
-}
-
-.customers .icon-quots {
-  position: absolute;
-  bottom: -20px;
-  left: -63px;
-}
-
-.icon-quots {
-  width: 47px;
-  height: 40px;
-  fill: #fff;
 }
 
 .video-button {
@@ -1496,4 +1458,10 @@ footer {
 }
 .spoon-icon:hover {
   fill: white;
+}
+
+.icon-quots {
+  width: 47px;
+  height: 40px;
+  fill: #fff;
 }/*# sourceMappingURL=main.css.map */
