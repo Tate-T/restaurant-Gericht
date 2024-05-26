@@ -29,10 +29,7 @@
   
   
   .hero-box {
-    justify-content: center;
-    display: flex;
-    gap: 8px;
-    align-items: center;
+    @include flexbox($center-y: center, $gap: 8px);
   }
   
   .hero-home {

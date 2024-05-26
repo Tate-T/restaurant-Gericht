@@ -4,8 +4,7 @@
   padding: 128px;
 
   &__container {
-    display: flex;
-    gap: 96px;
+    @include flexbox($gap: 96px);
   }
 
   &__chef {

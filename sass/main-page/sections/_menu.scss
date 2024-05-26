@@ -14,7 +14,7 @@
 
       
   &__list {
-    display: flex;
+    @include flexbox();
     flex-direction: column;
     row-gap: 64px;
   }

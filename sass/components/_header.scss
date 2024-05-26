@@ -7,9 +7,9 @@
   backdrop-filter: blur(6px);
 
   &__container {
-    display: flex;
-    align-items: center;
+    @include flexbox($center-y: center);
     position: relative;
+
   }
 
   &__title {

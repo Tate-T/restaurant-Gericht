@@ -50,8 +50,7 @@
   }
 
   &__list {
-    display: flex;
-    gap: 32px;
+    @include flexbox($gap: 32px);
   }
 
   &__item {
@@ -93,11 +92,8 @@
     background-color: $accent-color;
     color: #0c0c0c;
     @extend %text-styles;
-    display: flex;
     padding: 8px 32px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    @include flexbox($center-y: center, $gap: 10px);
     margin-top: 64px;
     margin-left: auto;
     margin-right: auto;

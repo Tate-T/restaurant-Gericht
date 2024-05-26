@@ -119,7 +119,10 @@ button {
 }
 .header__container {
   display: flex;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 0px;
   position: relative;
 }
 .header__title {
@@ -294,10 +297,17 @@ button {
 }
 .about__container {
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0px;
 }
 .about__left, .about__right {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0px;
   flex-direction: column;
   width: 523px;
 }
@@ -391,6 +401,9 @@ button {
 }
 .book__list {
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
   gap: 32px;
 }
 .book__item {
@@ -426,10 +439,11 @@ button {
 .book__but {
   background-color: #dcca87;
   color: #0c0c0c;
-  display: flex;
   padding: 8px 32px;
+  display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 10px;
   margin-top: 64px;
   margin-left: auto;
@@ -451,6 +465,10 @@ button {
 }
 .menu__list {
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0px;
   flex-direction: column;
   row-gap: 64px;
 }
@@ -496,6 +514,9 @@ button {
 }
 .special__box {
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
   gap: 32px;
 }
 .special__menu {
@@ -514,14 +535,20 @@ button {
   text-transform: capitalize;
 }
 .special__list {
-  display: flex;
   flex-direction: column;
-  gap: 40px;
   margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
 }
 .special__coctail {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0px;
 }
 .special__drink {
   color: #dcca87;
@@ -576,6 +603,9 @@ button {
 }
 .chef__container {
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
   gap: 96px;
 }
 .chef__chef {
@@ -661,16 +691,23 @@ button {
   margin-bottom: 64px;
 }
 .customers__list {
-  display: flex;
   row-gap: 64px;
   -moz-column-gap: 32px;
        column-gap: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   flex-wrap: wrap;
+  gap: 0px;
 }
 .customers__item {
   width: 634px;
   height: 210px;
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0px;
   /* width: calc((100% - ( var(--cards-gap) * (var(--cards-quantity ) -1))) / var(--cards-quantity)); /
   / width: calc((100% - 32px * 2 ) / 3 ); */
 }
@@ -761,10 +798,13 @@ button {
   background-image: url(../../img/steak.png);
   background-repeat: no-repeat;
   background-position: right;
-  display: flex;
   -moz-column-gap: 111px;
        column-gap: 111px;
+  display: flex;
+  justify-content: center;
   align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 0px;
 }
 
 .awards-box {
@@ -812,13 +852,20 @@ button {
 .awards-item {
   width: 301px;
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0px;
   -moz-column-gap: 32px;
        column-gap: 32px;
 }
 
 .awards-list {
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
   flex-wrap: wrap;
+  gap: 0px;
   row-gap: 64px;
   -moz-column-gap: 32px;
        column-gap: 32px;
@@ -854,7 +901,10 @@ button {
 
 .awards-number {
   display: flex;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 0px;
 }
 
 .awards-icon {
@@ -874,9 +924,12 @@ button {
 }
 
 .blog-container {
-  display: flex;
   flex-direction: column;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 0px;
 }
 
 .blogs-img {
@@ -899,8 +952,10 @@ button {
 
 .blog-list {
   display: flex;
-  gap: 32px;
+  justify-content: center;
+  align-items: flex-start;
   flex-wrap: wrap;
+  gap: 32px;
 }
 
 .blogs-title {
@@ -924,6 +979,9 @@ button {
 
 .blog-box {
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
   gap: 201px;
   margin-top: 24px;
   margin-bottom: 32px;
@@ -969,11 +1027,13 @@ button {
 .blog-button {
   color: #0c0c0c;
   font-style: normal;
-  display: flex;
   padding: 8px 32px;
   flex-direction: column;
+  display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 0px;
   background: #dcca87, #dcca87;
   margin-left: auto;
   margin-right: auto;
@@ -1006,6 +1066,10 @@ button {
 
 .container-gallery {
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0px;
   flex-wrap: nowrap;
 }
 
@@ -1069,8 +1133,10 @@ button {
   top: 0;
   bottom: 0;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0px;
   background-image: linear-gradient(208deg, rgba(0, 0, 0, 0.75) 1.5%, rgba(0, 0, 0, 0.64) 98.62%);
   transition-property: background-image, opacity, transform;
   transition-duration: 1s;
@@ -1110,8 +1176,11 @@ button {
 
 .gallery-list {
   display: flex;
-  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
   gap: 32px;
+  flex-wrap: nowrap;
 }
 
 .photo-gallery {
@@ -1172,8 +1241,9 @@ footer {
 .subscribe__form {
   display: flex;
   justify-content: center;
-  gap: 32px;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
 }
 .subscribe__input {
   width: 635px;
@@ -1187,6 +1257,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 0px;
   border: 1px solid #dcca87;
   background-color: #dcca87;
   width: 129px;
@@ -1197,6 +1269,10 @@ footer {
 
 .contact__container {
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0px;
 }
 .contact .container {
   padding-bottom: 16px;
@@ -1204,6 +1280,9 @@ footer {
 .contact__box {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0px;
   flex-direction: column;
   text-align: center;
   font-family: Open Sans;
@@ -1228,6 +1307,9 @@ footer {
   text-transform: capitalize;
   display: flex;
   justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0px;
   margin-bottom: 24px;
   color: #f5efdb;
 }
@@ -1241,7 +1323,10 @@ footer {
 }
 .contact__list {
   display: flex;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 0px;
   flex-direction: column;
 }
 .contact__link {
@@ -1274,6 +1359,9 @@ footer {
 .contact__socials {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0px;
   -moz-column-gap: 16px;
        column-gap: 16px;
 }
@@ -1348,6 +1436,10 @@ footer {
 
 .backdrop-list {
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0px;
   row-gap: 15px;
   flex-direction: column;
   padding-bottom: 30px;
@@ -1356,6 +1448,9 @@ footer {
 .backdrop-item {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0px;
 }
 
 .backdrop-type {
@@ -1395,7 +1490,9 @@ footer {
   border: solid 1px #dcca87;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0px;
   position: absolute;
   top: 10px;
   right: 5px;

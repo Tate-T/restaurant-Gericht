@@ -29,8 +29,7 @@
   }
 
   &__box {
-    display: flex;
-    gap: 32px;
+    @include flexbox($gap: 32px);
   }
 
   &__menu {
@@ -51,15 +50,13 @@
   }
 
   &__list {
-    display: flex;
     flex-direction: column;
-    gap: 40px;
     margin-top: 48px;
+    @include flexbox($gap: 40px);
   }
 
   &__coctail {
-    display: flex;
-    justify-content: space-between;
+    @include flexbox($position-x: space-between);
   }
 
   &__drink {

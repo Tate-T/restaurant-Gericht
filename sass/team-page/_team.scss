@@ -4,9 +4,7 @@
   }
   
   .team-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    @include flexbox();
     column-gap: 32px;
     row-gap: 64px;
   }

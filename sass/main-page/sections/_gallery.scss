@@ -3,8 +3,8 @@
   }
   
   .container-gallery {
-    display: flex;
-    flex-wrap: nowrap;
+    @include flexbox();
+    flex-wrap: nowrap
   }
   
   .gallery-photo-text {
@@ -70,9 +70,7 @@
     left: 0;
     top: 0;
     bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flexbox($center-y: center);
     background-image: linear-gradient(
       208deg,
       rgba(0, 0, 0, 0.75) 1.5%,
@@ -116,9 +114,8 @@
   }
   
   .gallery-list {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 32px;
+    @include flexbox($gap: 32px);
+    flex-wrap: nowrap
   }
   
   .photo-gallery {

@@ -119,7 +119,10 @@ button {
 }
 .header__container {
   display: flex;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 0px;
   position: relative;
 }
 .header__title {
@@ -257,10 +260,11 @@ button {
 }
 
 .hero-box {
-  justify-content: center;
   display: flex;
-  gap: 8px;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 .hero-home {
@@ -345,8 +349,9 @@ footer {
 .subscribe__form {
   display: flex;
   justify-content: center;
-  gap: 32px;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
 }
 .subscribe__input {
   width: 635px;
@@ -360,6 +365,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 0px;
   border: 1px solid #dcca87;
   background-color: #dcca87;
   width: 129px;
@@ -370,6 +377,10 @@ footer {
 
 .contact__container {
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0px;
 }
 .contact .container {
   padding-bottom: 16px;
@@ -377,6 +388,9 @@ footer {
 .contact__box {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0px;
   flex-direction: column;
   text-align: center;
   font-family: Open Sans;
@@ -401,6 +415,9 @@ footer {
   text-transform: capitalize;
   display: flex;
   justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0px;
   margin-bottom: 24px;
   color: #f5efdb;
 }
@@ -414,7 +431,10 @@ footer {
 }
 .contact__list {
   display: flex;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 0px;
   flex-direction: column;
 }
 .contact__link {
@@ -447,6 +467,9 @@ footer {
 .contact__socials {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0px;
   -moz-column-gap: 16px;
        column-gap: 16px;
 }

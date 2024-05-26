@@ -9,9 +9,8 @@
     background-image: url(../../img/steak.png);
     background-repeat: no-repeat;
     background-position: right;
-    display: flex;
     column-gap: 111px;
-    align-items: flex-end;
+    @include flexbox($center-y: flex-end);
   }
 
   .awards-box {
@@ -59,13 +58,12 @@
 
   .awards-item {
     width: 301px;
-    display: flex;
+    @include flexbox();
     column-gap: 32px;
   }
 
   .awards-list {
-    display: flex;
-    flex-wrap: wrap;
+    @include flexbox();
     row-gap: 64px;
     column-gap: 32px;
     margin-top: 64px;
@@ -104,8 +102,7 @@
   // }
   
   .awards-number {
-    display: flex;
-    align-items: center;
+    @include flexbox($center-y: center);
   }
   
   .awards-icon {
