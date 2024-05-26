@@ -109,9 +109,7 @@
   
   .gallery-button {
     color: $button-text-color;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.75;
+    @extend %text-styles;
     background-color: $accent-color;
     padding: 8px 32px;
     cursor: pointer;

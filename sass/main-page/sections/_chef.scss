@@ -43,11 +43,9 @@
   &__text {
     color: $text-color;
     font-family: Open Sans;
-    font-size: 16px;
     font-style: italic;
+    @extend %text-styles;
     font-weight: 400;
-    line-height: 175%;
-    letter-spacing: 0.64px;
   }
 
   &__name {
@@ -65,11 +63,9 @@
     color: $text-color, #aaa;
     /* Body 16px Regular */
     font-family: "Open Sans";
-    font-size: 16px;
     font-style: normal;
+    @extend %text-styles;
     font-weight: 400;
-    line-height: 175%; /* 28px */
-    letter-spacing: 0.64px;
     margin-top: 8px;
     margin-bottom: 64px;
   }

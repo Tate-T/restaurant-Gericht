@@ -1,3 +1,10 @@
+.backdrop-button, .subscribe__btn, .subscribe__info, .gallery-button, .blog-button, .chef__position, .chef__text, .special__button, .special__descripton, .book__but, .about__text, .hero__pages, .hero__button, .hero__info {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 175%;
+  letter-spacing: 0.64px;
+}
+
 h1,
 h2,
 h3,
@@ -257,18 +264,11 @@ button {
 .hero__info {
   color: #aaa;
   font-family: Open Sans;
-  font-size: 16px;
   font-weight: 400;
-  line-height: 175%;
-  letter-spacing: 0.64px;
   margin: 32px 0px;
 }
 .hero__button {
   color: #0c0c0c;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 175%;
-  letter-spacing: 0.64px;
   background-color: #dcca87;
   padding: 8px 32px;
   animation-name: hero-button;
@@ -278,10 +278,7 @@ button {
 .hero__pages {
   color: #f5efdb;
   font-variant-numeric: lining-nums tabular-nums;
-  font-size: 16px;
   font-weight: 600;
-  line-height: 175%;
-  letter-spacing: 0.64px;
   text-transform: capitalize;
   text-align: center;
   margin-top: 64px;
@@ -331,10 +328,7 @@ button {
 .about__text {
   color: #aaa;
   font-family: Open Sans;
-  font-size: 16px;
   font-weight: 400;
-  line-height: 1.75;
-  letter-spacing: 0.64px;
   margin-bottom: 32px;
   margin-top: 32px;
 }
@@ -432,10 +426,6 @@ button {
 .book__but {
   background-color: #dcca87;
   color: #0c0c0c;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 175%;
-  letter-spacing: 0.64px;
   display: flex;
   padding: 8px 32px;
   justify-content: center;
@@ -564,20 +554,13 @@ button {
 .special__descripton {
   color: #aaa;
   font-family: Open Sans;
-  font-size: 16px;
   font-weight: 400;
-  line-height: 175%;
-  letter-spacing: 0.64px;
   margin-top: 9px;
 }
 .special__button {
   display: block;
   background: #dcca87;
   color: #0c0c0c;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 175%;
-  letter-spacing: 0.64px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 73px;
@@ -626,11 +609,8 @@ button {
 .chef__text {
   color: #aaa;
   font-family: Open Sans;
-  font-size: 16px;
   font-style: italic;
   font-weight: 400;
-  line-height: 175%;
-  letter-spacing: 0.64px;
 }
 .chef__name {
   color: #dcca87;
@@ -646,11 +626,8 @@ button {
   color: #aaa, #aaa;
   /* Body 16px Regular */
   font-family: "Open Sans";
-  font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 175%; /* 28px */
-  letter-spacing: 0.64px;
   margin-top: 8px;
   margin-bottom: 64px;
 }
@@ -991,11 +968,7 @@ button {
 
 .blog-button {
   color: #0c0c0c;
-  font-size: 16px;
   font-style: normal;
-  font-weight: 700;
-  line-height: 175%;
-  letter-spacing: 0.64px;
   display: flex;
   padding: 8px 32px;
   flex-direction: column;
@@ -1130,9 +1103,6 @@ button {
 
 .gallery-button {
   color: #0c0c0c;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.75;
   background-color: #dcca87;
   padding: 8px 32px;
   cursor: pointer;
@@ -1196,11 +1166,8 @@ footer {
   color: #fff;
   text-align: center;
   font-family: "Open Sans";
-  font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 175%;
-  letter-spacing: 0.64px;
+  font-style: normal;
 }
 .subscribe__form {
   display: flex;
@@ -1226,10 +1193,6 @@ footer {
   height: 44px;
   color: #0c0c0c;
   font-family: Cormorant Upright;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 175%;
-  letter-spacing: 0.64px;
 }
 
 .contact__container {
@@ -1405,10 +1368,6 @@ footer {
   display: block;
   color: #0c0c0c;
   background-color: #dcca87;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 175%;
-  letter-spacing: 0.64px;
   padding: 5px;
   border-radius: 5px;
   margin: auto;

@@ -1,3 +1,10 @@
+.subscribe__btn, .subscribe__info {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 175%;
+  letter-spacing: 0.64px;
+}
+
 h1,
 h2,
 h3,
@@ -490,11 +497,8 @@ footer {
   color: #fff;
   text-align: center;
   font-family: "Open Sans";
-  font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 175%;
-  letter-spacing: 0.64px;
+  font-style: normal;
 }
 .subscribe__form {
   display: flex;
@@ -520,10 +524,6 @@ footer {
   height: 44px;
   color: #0c0c0c;
   font-family: Cormorant Upright;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 175%;
-  letter-spacing: 0.64px;
 }
 
 .contact__container {

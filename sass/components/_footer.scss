@@ -45,11 +45,9 @@ footer {
     color: #fff;
     text-align: center;
     font-family: "Open Sans";
-    font-size: 16px;
-    font-style: normal;
+    @extend %text-styles;
     font-weight: 400;
-    line-height: 175%;
-    letter-spacing: 0.64px;
+    font-style: normal;
   }
 
   &__form {
@@ -78,10 +76,7 @@ footer {
     height: 44px;
     color: $button-text-color;
     font-family: Cormorant Upright;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 175%;
-    letter-spacing: 0.64px;
+    @extend %text-styles;
   }
 }
 

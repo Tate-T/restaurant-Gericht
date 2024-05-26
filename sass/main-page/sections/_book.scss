@@ -92,10 +92,7 @@
   &__but {
     background-color: $accent-color;
     color: #0c0c0c;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 175%;
-    letter-spacing: 0.64px;
+    @extend %text-styles;
     display: flex;
     padding: 8px 32px;
     justify-content: center;
